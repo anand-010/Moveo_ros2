@@ -1,0 +1,4 @@
+source;share/moveo_moveit_config/local_setup.bash
+source;share/moveo_moveit_config/local_setup.dsv
+source;share/moveo_moveit_config/local_setup.sh
+source;share/moveo_moveit_config/local_setup.zsh

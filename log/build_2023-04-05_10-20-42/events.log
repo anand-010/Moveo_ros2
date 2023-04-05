@@ -1,0 +1,130 @@
+[0.000000] (-) TimerEvent: {}
+[0.000884] (moveo_arm) JobQueued: {'identifier': 'moveo_arm', 'dependencies': OrderedDict()}
+[0.001273] (moveo_arm) JobStarted: {'identifier': 'moveo_arm'}
+[0.099502] (-) TimerEvent: {}
+[0.169724] (moveo_arm) JobProgress: {'identifier': 'moveo_arm', 'progress': 'cmake'}
+[0.199689] (-) TimerEvent: {}
+[0.298529] (moveo_arm) JobProgress: {'identifier': 'moveo_arm', 'progress': 'build'}
+[0.301114] (moveo_arm) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/anand/Desktop/moveo_ros2/build/moveo_arm', '--', '-j4', '-l4'], 'cwd': '/home/anand/Desktop/moveo_ros2/build/moveo_arm', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'anand'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/anand'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1073'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c3a891ee8f6f94317aaff860642cf666'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/anand/Desktop/moveo_ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'anand'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'anand'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/anand-HP-Pavilion-g6-Notebook-PC:@/tmp/.ICE-unix/1073,unix/anand-HP-Pavilion-g6-Notebook-PC:/tmp/.ICE-unix/1073'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9f8a1b47_a479_4bb8_803d_a106dd2ef45f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('IGN_FILE_PATH', '/home/anand/Desktop/ros2_moveo/src/panda_simulation'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.F2FV21'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.128'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/anand/Desktop/moveo_ros2/install/moveo_arm:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/anand/Desktop/moveo_ros2/build/moveo_arm'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c3a891ee8f6f94317aaff860642cf666'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/anand/Desktop/moveo_ros2/install/moveo_arm:/opt/ros/humble')]), 'shell': False}
+[0.303823] (-) TimerEvent: {}
+[0.582320] (-) TimerEvent: {}
+[0.723758] (-) TimerEvent: {}
+[0.824696] (-) TimerEvent: {}
+[0.925653] (-) TimerEvent: {}
+[1.026411] (-) TimerEvent: {}
+[1.127427] (-) TimerEvent: {}
+[1.228434] (-) TimerEvent: {}
+[1.329428] (-) TimerEvent: {}
+[1.430604] (-) TimerEvent: {}
+[1.531185] (-) TimerEvent: {}
+[1.632172] (-) TimerEvent: {}
+[1.733167] (-) TimerEvent: {}
+[1.834297] (-) TimerEvent: {}
+[1.935329] (-) TimerEvent: {}
+[2.036384] (-) TimerEvent: {}
+[2.137339] (-) TimerEvent: {}
+[2.238347] (-) TimerEvent: {}
+[2.339305] (-) TimerEvent: {}
+[2.440265] (-) TimerEvent: {}
+[2.540818] (-) TimerEvent: {}
+[2.641499] (-) TimerEvent: {}
+[2.742687] (-) TimerEvent: {}
+[2.843448] (-) TimerEvent: {}
+[2.944377] (-) TimerEvent: {}
+[3.044901] (-) TimerEvent: {}
+[3.145910] (-) TimerEvent: {}
+[3.246832] (-) TimerEvent: {}
+[3.290880] (moveo_arm) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.346951] (-) TimerEvent: {}
+[3.447435] (-) TimerEvent: {}
+[3.548121] (-) TimerEvent: {}
+[3.648723] (-) TimerEvent: {}
+[3.749677] (-) TimerEvent: {}
+[3.850359] (-) TimerEvent: {}
+[3.950930] (-) TimerEvent: {}
+[4.051750] (-) TimerEvent: {}
+[4.152712] (-) TimerEvent: {}
+[4.253449] (-) TimerEvent: {}
+[4.353971] (-) TimerEvent: {}
+[4.454729] (-) TimerEvent: {}
+[4.555806] (-) TimerEvent: {}
+[4.657062] (-) TimerEvent: {}
+[4.746030] (moveo_arm) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.757321] (-) TimerEvent: {}
+[4.858052] (-) TimerEvent: {}
+[4.958894] (-) TimerEvent: {}
+[5.059438] (-) TimerEvent: {}
+[5.160221] (-) TimerEvent: {}
+[5.261202] (-) TimerEvent: {}
+[5.361992] (-) TimerEvent: {}
+[5.462962] (-) TimerEvent: {}
+[5.516611] (moveo_arm) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[5.519393] (moveo_arm) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.521653] (moveo_arm) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[5.529675] (moveo_arm) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.533899] (moveo_arm) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.563164] (-) TimerEvent: {}
+[5.664000] (-) TimerEvent: {}
+[5.666491] (moveo_arm) StdoutLine: {'line': b'-- Generating done\n'}
+[5.671601] (moveo_arm) StdoutLine: {'line': b'-- Build files have been written to: /home/anand/Desktop/moveo_ros2/build/moveo_arm\n'}
+[5.724908] (moveo_arm) CommandEnded: {'returncode': 0}
+[5.756168] (moveo_arm) JobProgress: {'identifier': 'moveo_arm', 'progress': 'install'}
+[5.764128] (-) TimerEvent: {}
+[5.769950] (moveo_arm) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/anand/Desktop/moveo_ros2/build/moveo_arm'], 'cwd': '/home/anand/Desktop/moveo_ros2/build/moveo_arm', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'anand'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/anand'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1073'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c3a891ee8f6f94317aaff860642cf666'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/anand/Desktop/moveo_ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'anand'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'anand'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/anand-HP-Pavilion-g6-Notebook-PC:@/tmp/.ICE-unix/1073,unix/anand-HP-Pavilion-g6-Notebook-PC:/tmp/.ICE-unix/1073'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9f8a1b47_a479_4bb8_803d_a106dd2ef45f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('IGN_FILE_PATH', '/home/anand/Desktop/ros2_moveo/src/panda_simulation'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.F2FV21'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.128'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/anand/Desktop/moveo_ros2/install/moveo_arm:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/anand/Desktop/moveo_ros2/build/moveo_arm'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c3a891ee8f6f94317aaff860642cf666'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/anand/Desktop/moveo_ros2/install/moveo_arm:/opt/ros/humble')]), 'shell': False}
+[5.783406] (moveo_arm) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.784675] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/launch\n'}
+[5.784976] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/launch/start_moveit.launch.py\n'}
+[5.785217] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/urdf\n'}
+[5.785452] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/urdf/moveo_gazebo.xacro\n'}
+[5.785690] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/urdf/moveo.urdf.xacro\n'}
+[5.785919] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/urdf/moveo.urdf\n'}
+[5.786300] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes\n'}
+[5.786536] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Gripper_Servo_Gear.STL\n'}
+[5.786763] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/link5.mlp\n'}
+[5.824831] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Pivot_Arm_Gripper_Idol.STL\n'}
+[5.825251] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Gripper_Idol_Gear_col.STL\n'}
+[5.825538] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Tip_Gripper_Servo.STL\n'}
+[5.826124] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Link_2_edited.STL\n'}
+[5.826529] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Link_3_col.STL\n'}
+[5.826812] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Tip_Gripper_Idol.STL\n'}
+[5.827091] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Link_5_col.STL\n'}
+[5.827438] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/base_link.STL\n'}
+[5.827759] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Pivot_Arm_Gripper_Servo_col.STL\n'}
+[5.828084] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Gripper_Idol_Gear.STL\n'}
+[5.828400] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Pivot_Arm_Gripper_Servo.STL\n'}
+[5.828799] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Link_5_edited.STL\n'}
+[5.829076] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Link_1_edited.STL\n'}
+[5.829403] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Link_4_edited.STL\n'}
+[5.829674] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Gripper_Servo_Gear_col.STL\n'}
+[5.830415] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/link5col.mlp\n'}
+[5.830718] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Link_1_col.STL\n'}
+[5.830969] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Link_2_col.STL\n'}
+[5.831239] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Tip_Gripper_Idol_col.STL\n'}
+[5.831473] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Pivot_Arm_Gripper_Idol_col.STL\n'}
+[5.831703] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Tip_Gripper_Servo_col.STL\n'}
+[5.831926] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Link_4_col.STL\n'}
+[5.832154] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Link_3_edited.STL\n'}
+[5.832385] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/base_link_col.STL\n'}
+[5.832786] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/ament_index/resource_index/package_run_dependencies/moveo_arm\n'}
+[5.833621] (moveo_arm) StdoutLine: {'line': b'-- Installing: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/ament_index/resource_index/parent_prefix_path/moveo_arm\n'}
+[5.835171] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/environment/ament_prefix_path.sh\n'}
+[5.835582] (moveo_arm) StdoutLine: {'line': b'-- Installing: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/environment/ament_prefix_path.dsv\n'}
+[5.835846] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/environment/path.sh\n'}
+[5.836081] (moveo_arm) StdoutLine: {'line': b'-- Installing: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/environment/path.dsv\n'}
+[5.836312] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/local_setup.bash\n'}
+[5.836539] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/local_setup.sh\n'}
+[5.836768] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/local_setup.zsh\n'}
+[5.836994] (moveo_arm) StdoutLine: {'line': b'-- Installing: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/local_setup.dsv\n'}
+[5.837226] (moveo_arm) StdoutLine: {'line': b'-- Installing: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/package.dsv\n'}
+[5.837451] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/ament_index/resource_index/packages/moveo_arm\n'}
+[5.837677] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/cmake/moveo_armConfig.cmake\n'}
+[5.837906] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/cmake/moveo_armConfig-version.cmake\n'}
+[5.838163] (moveo_arm) StdoutLine: {'line': b'-- Installing: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/package.xml\n'}
+[5.838397] (moveo_arm) CommandEnded: {'returncode': 0}
+[5.864244] (-) TimerEvent: {}
+[5.964695] (-) TimerEvent: {}
+[6.065459] (-) TimerEvent: {}
+[6.166764] (-) TimerEvent: {}
+[6.267977] (-) TimerEvent: {}
+[6.354294] (moveo_arm) JobEnded: {'identifier': 'moveo_arm', 'rc': 0}
+[6.355525] (-) EventReactorShutdown: {}

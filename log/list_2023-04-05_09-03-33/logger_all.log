@@ -1,0 +1,50 @@
+[1.187s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/anand/Desktop/moveo_ros2']
+[1.188s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/anand/Desktop/moveo_ros2'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f601d7c01c0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f601d732500>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f601d732500>>)
+[1.258s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.258s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.259s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.259s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.259s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.259s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/anand/Desktop/moveo_ros2'
+[1.259s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anand/Desktop/moveo_ros2) by extensions ['ignore', 'ignore_ament_install']
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anand/Desktop/moveo_ros2) by extension 'ignore'
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anand/Desktop/moveo_ros2) by extension 'ignore_ament_install'
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anand/Desktop/moveo_ros2) by extensions ['colcon_pkg']
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anand/Desktop/moveo_ros2) by extension 'colcon_pkg'
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anand/Desktop/moveo_ros2) by extensions ['colcon_meta']
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anand/Desktop/moveo_ros2) by extension 'colcon_meta'
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anand/Desktop/moveo_ros2) by extensions ['ros']
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anand/Desktop/moveo_ros2) by extension 'ros'
+[1.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anand/Desktop/moveo_ros2) by extensions ['cmake', 'python']
+[1.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anand/Desktop/moveo_ros2) by extension 'cmake'
+[1.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anand/Desktop/moveo_ros2) by extension 'python'
+[1.305s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anand/Desktop/moveo_ros2) by extensions ['python_setup_py']
+[1.306s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anand/Desktop/moveo_ros2) by extension 'python_setup_py'
+[1.306s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anand/Desktop/moveo_ros2/log) by extensions ['ignore', 'ignore_ament_install']
+[1.306s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anand/Desktop/moveo_ros2/log) by extension 'ignore'
+[1.306s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anand/Desktop/moveo_ros2/log) ignored
+[1.306s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anand/Desktop/moveo_ros2/src) by extensions ['ignore', 'ignore_ament_install']
+[1.307s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anand/Desktop/moveo_ros2/src) by extension 'ignore'
+[1.307s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anand/Desktop/moveo_ros2/src) by extension 'ignore_ament_install'
+[1.307s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anand/Desktop/moveo_ros2/src) by extensions ['colcon_pkg']
+[1.307s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anand/Desktop/moveo_ros2/src) by extension 'colcon_pkg'
+[1.307s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anand/Desktop/moveo_ros2/src) by extensions ['colcon_meta']
+[1.307s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anand/Desktop/moveo_ros2/src) by extension 'colcon_meta'
+[1.307s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anand/Desktop/moveo_ros2/src) by extensions ['ros']
+[1.307s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anand/Desktop/moveo_ros2/src) by extension 'ros'
+[1.307s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anand/Desktop/moveo_ros2/src) by extensions ['cmake', 'python']
+[1.307s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anand/Desktop/moveo_ros2/src) by extension 'cmake'
+[1.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anand/Desktop/moveo_ros2/src) by extension 'python'
+[1.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anand/Desktop/moveo_ros2/src) by extensions ['python_setup_py']
+[1.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anand/Desktop/moveo_ros2/src) by extension 'python_setup_py'
+[1.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anand/Desktop/moveo_ros2/src/moveo_arm) by extensions ['ignore', 'ignore_ament_install']
+[1.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anand/Desktop/moveo_ros2/src/moveo_arm) by extension 'ignore'
+[1.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anand/Desktop/moveo_ros2/src/moveo_arm) by extension 'ignore_ament_install'
+[1.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anand/Desktop/moveo_ros2/src/moveo_arm) by extensions ['colcon_pkg']
+[1.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anand/Desktop/moveo_ros2/src/moveo_arm) by extension 'colcon_pkg'
+[1.308s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anand/Desktop/moveo_ros2/src/moveo_arm) by extensions ['colcon_meta']
+[1.309s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anand/Desktop/moveo_ros2/src/moveo_arm) by extension 'colcon_meta'
+[1.309s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anand/Desktop/moveo_ros2/src/moveo_arm) by extensions ['ros']
+[1.309s] Level 1:colcon.colcon_core.package_identification:_identify(/home/anand/Desktop/moveo_ros2/src/moveo_arm) by extension 'ros'
+[1.313s] DEBUG:colcon.colcon_core.package_identification:Package '/home/anand/Desktop/moveo_ros2/src/moveo_arm' with type 'ros.ament_cmake' and name 'moveo_arm'
+[1.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

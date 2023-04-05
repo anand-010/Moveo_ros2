@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="panda">
+    <!-- <xacro:arg name="initial_positions_file" default="$(find panda_robot_bringup)/config/initial_positions.yaml" /> -->
+
+    <!-- Import panda urdf file -->
+    <xacro:include filename="$(find moveo_arm)/urdf/moveo.urdf" />
+
+    <!-- Import panda ros2_control description -->
+    <!-- <xacro:include filename="$(find panda_robot_bringup)/urdf/panda.ros2_control.xacro" />
+
+    <xacro:config_ctr_gazebo /> -->
+
+    <!-- <gazebo>
+        <plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so">
+            <robot_sim_type>gazebo_ros2_control/GazeboSystem</robot_sim_type>
+            <parameters>$(find panda_robot_bringup)/config/controller_configuration.yaml</parameters>
+        </plugin>
+    </gazebo> -->
+    <xacro:include filename="$(find moveo_arm)/urdf/moveo_gazebo.xacro" />
+</robot>
