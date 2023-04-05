@@ -1,0 +1,46 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library libgazebo_ros2_control.so[0m
+[ 50%] Built target gazebo_ros2_control
+[ 75%] [32mBuilding CXX object CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o[0m
+[01m[K/home/anand/Desktop/moveo_ros2/src/gazebo_ros2_control/src/gazebo_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type gazebo_ros2_control::GazeboSystem::perform_command_mode_switch(const std::vector<std::__cxx11::basic_string<char> >&, const std::vector<std::__cxx11::basic_string<char> >&)[m[K’:
+[01m[K/home/anand/Desktop/moveo_ros2/src/gazebo_ros2_control/src/gazebo_system.cpp:515:77:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr gazebo_ros2_control::SafeEnum<gazebo_ros2_control::GazeboSystemInterface::ControlMethod_>& gazebo_ros2_control::SafeEnum<gazebo_ros2_control::GazeboSystemInterface::ControlMethod_>::operator=(const gazebo_ros2_control::SafeEnum<gazebo_ros2_control::GazeboSystemInterface::ControlMethod_>&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+  515 |       this->dataPtr->joint_control_methods_[mimic_joint.mimicked_joint_index[01;35m[K][m[K;
+      |                                                                             [01;35m[K^[m[K
+In file included from [01m[K/home/anand/Desktop/moveo_ros2/src/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system.hpp:25[m[K,
+                 from [01m[K/home/anand/Desktop/moveo_ros2/src/gazebo_ros2_control/src/gazebo_system.cpp:22[m[K:
+[01m[K/home/anand/Desktop/moveo_ros2/src/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp:43:3:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kgazebo_ros2_control::SafeEnum<gazebo_ros2_control::GazeboSystemInterface::ControlMethod_>[m[K’ has user-provided ‘[01m[Kgazebo_ros2_control::SafeEnum<ENUM, UNDERLYING>::SafeEnum(const gazebo_ros2_control::SafeEnum<ENUM, UNDERLYING>&) [with ENUM = gazebo_ros2_control::GazeboSystemInterface::ControlMethod_; UNDERLYING = unsigned int][m[K’
+   43 |   [01;36m[KSafeEnum[m[K(const SafeEnum & original)
+      |   [01;36m[K^~~~~~~~[m[K
+[100%] [32m[1mLinking CXX shared library libgazebo_hardware_plugins.so[0m
+[100%] Built target gazebo_hardware_plugins
+-- Install configuration: ""
+-- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/lib/libgazebo_ros2_control.so
+-- Set runtime path of "/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/lib/libgazebo_ros2_control.so" to ""
+-- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/lib/libgazebo_hardware_plugins.so
+-- Set runtime path of "/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/lib/libgazebo_hardware_plugins.so" to ""
+-- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.sh
+-- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.dsv
+-- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/include/gazebo_ros2_control
+-- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp
+-- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system.hpp
+-- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_ros2_control_plugin.hpp
+-- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/gazebo_hardware_plugins.xml
+-- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control
+-- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control
+-- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.sh
+-- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.dsv
+-- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.sh
+-- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.dsv
+-- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.bash
+-- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.sh
+-- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.zsh
+-- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.dsv
+-- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/package.dsv
+-- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/ament_index/resource_index/packages/gazebo_ros2_control
+-- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/ament_index/resource_index/gazebo_ros2_control__pluginlib__plugin/gazebo_ros2_control
+-- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig.cmake
+-- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig-version.cmake
+-- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/package.xml

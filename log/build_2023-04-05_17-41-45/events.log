@@ -1,0 +1,1250 @@
+[0.000000] (-) TimerEvent: {}
+[0.000846] (gazebo_ros2_control) JobQueued: {'identifier': 'gazebo_ros2_control', 'dependencies': OrderedDict()}
+[0.001937] (moveo_arm) JobQueued: {'identifier': 'moveo_arm', 'dependencies': OrderedDict()}
+[0.002053] (moveo_moveit_config) JobQueued: {'identifier': 'moveo_moveit_config', 'dependencies': OrderedDict([('moveo_arm', '/home/anand/Desktop/moveo_ros2/install/moveo_arm')])}
+[0.002153] (moveo_arm) JobStarted: {'identifier': 'moveo_arm'}
+[0.099195] (-) TimerEvent: {}
+[0.199799] (-) TimerEvent: {}
+[0.300512] (-) TimerEvent: {}
+[0.401381] (-) TimerEvent: {}
+[0.525593] (-) TimerEvent: {}
+[0.527121] (gazebo_ros2_control) JobStarted: {'identifier': 'gazebo_ros2_control'}
+[0.559722] (moveo_arm) JobProgress: {'identifier': 'moveo_arm', 'progress': 'cmake'}
+[0.618709] (moveo_arm) JobProgress: {'identifier': 'moveo_arm', 'progress': 'build'}
+[0.620044] (moveo_arm) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/anand/Desktop/moveo_ros2/build/moveo_arm', '--', '-j4', '-l4'], 'cwd': '/home/anand/Desktop/moveo_ros2/build/moveo_arm', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'anand'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/anand'), ('OLDPWD', '/home/anand'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1503'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/anand/Desktop/moveo_ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'anand'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'anand'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/anand/Desktop/moveo_ros2/install/moveo_arm/share'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/anand-HP-Pavilion-g6-Notebook-PC:@/tmp/.ICE-unix/1073,unix/anand-HP-Pavilion-g6-Notebook-PC:/tmp/.ICE-unix/1073'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8b440e6f_ba35_4695_ac25_ad8936874f6a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('IGN_FILE_PATH', '/home/anand/Desktop/ros2_moveo/src/panda_simulation'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.F2FV21'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.128'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/anand/Desktop/moveo_ros2/install/moveo_moveit_config:/home/anand/Desktop/moveo_ros2/install/moveo_arm:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/anand/Desktop/moveo_ros2/build/moveo_arm'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/anand/Desktop/moveo_ros2/install/moveo_moveit_config:/home/anand/Desktop/moveo_ros2/install/moveo_arm:/opt/ros/humble')]), 'shell': False}
+[0.625670] (-) TimerEvent: {}
+[0.827231] (-) TimerEvent: {}
+[0.868867] (gazebo_ros2_control) JobProgress: {'identifier': 'gazebo_ros2_control', 'progress': 'cmake'}
+[0.912769] (gazebo_ros2_control) JobProgress: {'identifier': 'gazebo_ros2_control', 'progress': 'build'}
+[0.914335] (gazebo_ros2_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/anand/Desktop/moveo_ros2/build/gazebo_ros2_control', '--', '-j4', '-l4'], 'cwd': '/home/anand/Desktop/moveo_ros2/build/gazebo_ros2_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'anand'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/anand'), ('OLDPWD', '/home/anand'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1503'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/anand/Desktop/moveo_ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'anand'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'anand'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/anand/Desktop/moveo_ros2/install/moveo_arm/share'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/anand-HP-Pavilion-g6-Notebook-PC:@/tmp/.ICE-unix/1073,unix/anand-HP-Pavilion-g6-Notebook-PC:/tmp/.ICE-unix/1073'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8b440e6f_ba35_4695_ac25_ad8936874f6a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('IGN_FILE_PATH', '/home/anand/Desktop/ros2_moveo/src/panda_simulation'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.F2FV21'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.128'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/anand/Desktop/moveo_ros2/install/moveo_moveit_config:/home/anand/Desktop/moveo_ros2/install/moveo_arm:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/anand/Desktop/moveo_ros2/build/gazebo_ros2_control'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/anand/Desktop/moveo_ros2/install/moveo_moveit_config:/home/anand/Desktop/moveo_ros2/install/moveo_arm:/opt/ros/humble')]), 'shell': False}
+[0.927358] (-) TimerEvent: {}
+[1.027828] (-) TimerEvent: {}
+[1.128381] (-) TimerEvent: {}
+[1.229053] (-) TimerEvent: {}
+[1.329727] (-) TimerEvent: {}
+[1.430397] (-) TimerEvent: {}
+[1.531077] (-) TimerEvent: {}
+[1.631731] (-) TimerEvent: {}
+[1.732383] (-) TimerEvent: {}
+[1.833118] (-) TimerEvent: {}
+[1.933808] (-) TimerEvent: {}
+[2.034536] (-) TimerEvent: {}
+[2.135513] (-) TimerEvent: {}
+[2.236170] (-) TimerEvent: {}
+[2.336784] (-) TimerEvent: {}
+[2.437456] (-) TimerEvent: {}
+[2.538163] (-) TimerEvent: {}
+[2.638704] (-) TimerEvent: {}
+[2.739432] (-) TimerEvent: {}
+[2.839948] (-) TimerEvent: {}
+[2.940634] (-) TimerEvent: {}
+[3.041353] (-) TimerEvent: {}
+[3.141923] (-) TimerEvent: {}
+[3.242625] (-) TimerEvent: {}
+[3.343255] (-) TimerEvent: {}
+[3.443863] (-) TimerEvent: {}
+[3.544502] (-) TimerEvent: {}
+[3.645171] (-) TimerEvent: {}
+[3.745859] (-) TimerEvent: {}
+[3.846599] (-) TimerEvent: {}
+[3.947313] (-) TimerEvent: {}
+[4.047940] (-) TimerEvent: {}
+[4.148606] (-) TimerEvent: {}
+[4.249265] (-) TimerEvent: {}
+[4.349716] (-) TimerEvent: {}
+[4.450339] (-) TimerEvent: {}
+[4.551005] (-) TimerEvent: {}
+[4.590768] (moveo_arm) CommandEnded: {'returncode': 0}
+[4.624078] (moveo_arm) JobProgress: {'identifier': 'moveo_arm', 'progress': 'install'}
+[4.636414] (moveo_arm) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/anand/Desktop/moveo_ros2/build/moveo_arm'], 'cwd': '/home/anand/Desktop/moveo_ros2/build/moveo_arm', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'anand'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/anand'), ('OLDPWD', '/home/anand'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1503'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/anand/Desktop/moveo_ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'anand'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'anand'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/anand/Desktop/moveo_ros2/install/moveo_arm/share'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/anand-HP-Pavilion-g6-Notebook-PC:@/tmp/.ICE-unix/1073,unix/anand-HP-Pavilion-g6-Notebook-PC:/tmp/.ICE-unix/1073'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8b440e6f_ba35_4695_ac25_ad8936874f6a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('IGN_FILE_PATH', '/home/anand/Desktop/ros2_moveo/src/panda_simulation'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.F2FV21'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.128'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/anand/Desktop/moveo_ros2/install/moveo_moveit_config:/home/anand/Desktop/moveo_ros2/install/moveo_arm:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/anand/Desktop/moveo_ros2/build/moveo_arm'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/anand/Desktop/moveo_ros2/install/moveo_moveit_config:/home/anand/Desktop/moveo_ros2/install/moveo_arm:/opt/ros/humble')]), 'shell': False}
+[4.651146] (-) TimerEvent: {}
+[4.751620] (-) TimerEvent: {}
+[4.801019] (moveo_arm) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.851747] (-) TimerEvent: {}
+[4.872521] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/launch\n'}
+[4.951927] (-) TimerEvent: {}
+[4.954594] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/launch/moveit_gazebo.launch.py\n'}
+[4.955299] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/launch/moveit.launch.py\n'}
+[4.955821] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/launch/start_moveit.launch.py\n'}
+[4.956313] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/urdf\n'}
+[5.020520] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/urdf/moveo_gazebo.xacro\n'}
+[5.022378] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/urdf/moveo.urdf.xacro\n'}
+[5.023021] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/urdf/moveo.urdf\n'}
+[5.023516] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes\n'}
+[5.052060] (-) TimerEvent: {}
+[5.144604] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Gripper_Servo_Gear.STL\n'}
+[5.152155] (-) TimerEvent: {}
+[5.213482] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/link5.mlp\n'}
+[5.214222] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Pivot_Arm_Gripper_Idol.STL\n'}
+[5.214886] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Gripper_Idol_Gear_col.STL\n'}
+[5.215529] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Tip_Gripper_Servo.STL\n'}
+[5.215977] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Link_2_edited.STL\n'}
+[5.216466] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Link_3_col.STL\n'}
+[5.216937] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Tip_Gripper_Idol.STL\n'}
+[5.217408] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Link_5_col.STL\n'}
+[5.217863] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/base_link.STL\n'}
+[5.218314] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Pivot_Arm_Gripper_Servo_col.STL\n'}
+[5.218802] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Gripper_Idol_Gear.STL\n'}
+[5.219245] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Pivot_Arm_Gripper_Servo.STL\n'}
+[5.219641] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Link_5_edited.STL\n'}
+[5.220065] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Link_1_edited.STL\n'}
+[5.220536] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Link_4_edited.STL\n'}
+[5.220986] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Gripper_Servo_Gear_col.STL\n'}
+[5.221434] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/link5col.mlp\n'}
+[5.221913] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Link_1_col.STL\n'}
+[5.222379] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Link_2_col.STL\n'}
+[5.222798] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Tip_Gripper_Idol_col.STL\n'}
+[5.223111] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Pivot_Arm_Gripper_Idol_col.STL\n'}
+[5.223440] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Tip_Gripper_Servo_col.STL\n'}
+[5.223789] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Link_4_col.STL\n'}
+[5.224239] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Link_3_edited.STL\n'}
+[5.224683] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/base_link_col.STL\n'}
+[5.225128] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/ament_index/resource_index/package_run_dependencies/moveo_arm\n'}
+[5.252298] (-) TimerEvent: {}
+[5.277350] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/ament_index/resource_index/parent_prefix_path/moveo_arm\n'}
+[5.352473] (-) TimerEvent: {}
+[5.354392] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/environment/ament_prefix_path.sh\n'}
+[5.355020] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/environment/ament_prefix_path.dsv\n'}
+[5.355628] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/environment/path.sh\n'}
+[5.356287] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/environment/path.dsv\n'}
+[5.356656] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/local_setup.bash\n'}
+[5.357028] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/local_setup.sh\n'}
+[5.357431] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/local_setup.zsh\n'}
+[5.357877] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/local_setup.dsv\n'}
+[5.358249] (moveo_arm) StdoutLine: {'line': b'-- Installing: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/package.dsv\n'}
+[5.396235] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/ament_index/resource_index/packages/moveo_arm\n'}
+[5.397088] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/cmake/moveo_armConfig.cmake\n'}
+[5.397618] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/cmake/moveo_armConfig-version.cmake\n'}
+[5.398076] (moveo_arm) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/package.xml\n'}
+[5.401375] (moveo_arm) CommandEnded: {'returncode': 0}
+[5.452608] (-) TimerEvent: {}
+[5.553282] (-) TimerEvent: {}
+[5.653897] (-) TimerEvent: {}
+[5.754533] (-) TimerEvent: {}
+[5.855163] (-) TimerEvent: {}
+[5.955784] (-) TimerEvent: {}
+[6.056370] (-) TimerEvent: {}
+[6.156977] (-) TimerEvent: {}
+[6.257997] (-) TimerEvent: {}
+[6.358902] (-) TimerEvent: {}
+[6.459591] (-) TimerEvent: {}
+[6.560256] (-) TimerEvent: {}
+[6.661009] (-) TimerEvent: {}
+[6.761682] (-) TimerEvent: {}
+[6.862320] (-) TimerEvent: {}
+[6.962913] (-) TimerEvent: {}
+[7.063606] (-) TimerEvent: {}
+[7.164364] (-) TimerEvent: {}
+[7.268036] (-) TimerEvent: {}
+[7.284591] (moveo_arm) JobEnded: {'identifier': 'moveo_arm', 'rc': 0}
+[7.289542] (moveo_moveit_config) JobStarted: {'identifier': 'moveo_moveit_config'}
+[7.368152] (-) TimerEvent: {}
+[7.405423] (moveo_moveit_config) JobProgress: {'identifier': 'moveo_moveit_config', 'progress': 'cmake'}
+[7.431453] (moveo_moveit_config) JobProgress: {'identifier': 'moveo_moveit_config', 'progress': 'build'}
+[7.431945] (moveo_moveit_config) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/anand/Desktop/moveo_ros2/build/moveo_moveit_config', '--', '-j4', '-l4'], 'cwd': '/home/anand/Desktop/moveo_ros2/build/moveo_moveit_config', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'anand'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/anand'), ('OLDPWD', '/home/anand'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1503'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/anand/Desktop/moveo_ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'anand'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'anand'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/anand/Desktop/moveo_ros2/install/moveo_arm/share'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/anand-HP-Pavilion-g6-Notebook-PC:@/tmp/.ICE-unix/1073,unix/anand-HP-Pavilion-g6-Notebook-PC:/tmp/.ICE-unix/1073'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8b440e6f_ba35_4695_ac25_ad8936874f6a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('IGN_FILE_PATH', '/home/anand/Desktop/ros2_moveo/src/panda_simulation'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.F2FV21'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.128'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/anand/Desktop/moveo_ros2/install/moveo_moveit_config:/home/anand/Desktop/moveo_ros2/install/moveo_arm:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/anand/Desktop/moveo_ros2/build/moveo_moveit_config'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/anand/Desktop/moveo_ros2/install/moveo_arm:/home/anand/Desktop/moveo_ros2/install/moveo_moveit_config:/opt/ros/humble')]), 'shell': False}
+[7.468295] (-) TimerEvent: {}
+[7.568872] (-) TimerEvent: {}
+[7.669396] (-) TimerEvent: {}
+[7.721716] (moveo_moveit_config) CommandEnded: {'returncode': 0}
+[7.752900] (moveo_moveit_config) JobProgress: {'identifier': 'moveo_moveit_config', 'progress': 'install'}
+[7.753969] (moveo_moveit_config) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/anand/Desktop/moveo_ros2/build/moveo_moveit_config'], 'cwd': '/home/anand/Desktop/moveo_ros2/build/moveo_moveit_config', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'anand'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/anand'), ('OLDPWD', '/home/anand'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1503'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/anand/Desktop/moveo_ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'anand'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'anand'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/anand/Desktop/moveo_ros2/install/moveo_arm/share'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/anand-HP-Pavilion-g6-Notebook-PC:@/tmp/.ICE-unix/1073,unix/anand-HP-Pavilion-g6-Notebook-PC:/tmp/.ICE-unix/1073'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8b440e6f_ba35_4695_ac25_ad8936874f6a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('IGN_FILE_PATH', '/home/anand/Desktop/ros2_moveo/src/panda_simulation'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.F2FV21'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.128'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/anand/Desktop/moveo_ros2/install/moveo_moveit_config:/home/anand/Desktop/moveo_ros2/install/moveo_arm:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/anand/Desktop/moveo_ros2/build/moveo_moveit_config'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/anand/Desktop/moveo_ros2/install/moveo_arm:/home/anand/Desktop/moveo_ros2/install/moveo_moveit_config:/opt/ros/humble')]), 'shell': False}
+[7.765036] (moveo_moveit_config) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.765403] (moveo_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_moveit_config/share/ament_index/resource_index/package_run_dependencies/moveo_moveit_config\n'}
+[7.769467] (-) TimerEvent: {}
+[7.774203] (moveo_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_moveit_config/share/ament_index/resource_index/parent_prefix_path/moveo_moveit_config\n'}
+[7.775640] (moveo_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_moveit_config/share/moveo_moveit_config/environment/ament_prefix_path.sh\n'}
+[7.776843] (moveo_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_moveit_config/share/moveo_moveit_config/environment/ament_prefix_path.dsv\n'}
+[7.777162] (moveo_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_moveit_config/share/moveo_moveit_config/environment/path.sh\n'}
+[7.777446] (moveo_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_moveit_config/share/moveo_moveit_config/environment/path.dsv\n'}
+[7.777725] (moveo_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_moveit_config/share/moveo_moveit_config/local_setup.bash\n'}
+[7.778008] (moveo_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_moveit_config/share/moveo_moveit_config/local_setup.sh\n'}
+[7.778291] (moveo_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_moveit_config/share/moveo_moveit_config/local_setup.zsh\n'}
+[7.778560] (moveo_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_moveit_config/share/moveo_moveit_config/local_setup.dsv\n'}
+[7.778874] (moveo_moveit_config) StdoutLine: {'line': b'-- Installing: /home/anand/Desktop/moveo_ros2/install/moveo_moveit_config/share/moveo_moveit_config/package.dsv\n'}
+[7.804427] (moveo_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_moveit_config/share/ament_index/resource_index/packages/moveo_moveit_config\n'}
+[7.805949] (moveo_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_moveit_config/share/moveo_moveit_config/cmake/moveo_moveit_configConfig.cmake\n'}
+[7.806479] (moveo_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_moveit_config/share/moveo_moveit_config/cmake/moveo_moveit_configConfig-version.cmake\n'}
+[7.806764] (moveo_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_moveit_config/share/moveo_moveit_config/package.xml\n'}
+[7.807242] (moveo_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_moveit_config/share/moveo_moveit_config/launch\n'}
+[7.807610] (moveo_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_moveit_config/share/moveo_moveit_config/launch/warehouse_db.launch.py\n'}
+[7.807850] (moveo_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_moveit_config/share/moveo_moveit_config/launch/spawn_controllers.launch.py\n'}
+[7.808085] (moveo_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_moveit_config/share/moveo_moveit_config/launch/static_virtual_joint_tfs.launch.py\n'}
+[7.808314] (moveo_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_moveit_config/share/moveo_moveit_config/launch/demo.launch.py\n'}
+[7.808543] (moveo_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_moveit_config/share/moveo_moveit_config/launch/setup_assistant.launch.py\n'}
+[7.808772] (moveo_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_moveit_config/share/moveo_moveit_config/launch/moveit_rviz.launch.py\n'}
+[7.809000] (moveo_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_moveit_config/share/moveo_moveit_config/launch/rsp.launch.py\n'}
+[7.809371] (moveo_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_moveit_config/share/moveo_moveit_config/launch/move_group.launch.py\n'}
+[7.809603] (moveo_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_moveit_config/share/moveo_moveit_config/config\n'}
+[7.852170] (moveo_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_moveit_config/share/moveo_moveit_config/config/pilz_cartesian_limits.yaml\n'}
+[7.852780] (moveo_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_moveit_config/share/moveo_moveit_config/config/panda.ros2_control.xacro\n'}
+[7.853046] (moveo_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_moveit_config/share/moveo_moveit_config/config/initial_positions.yaml\n'}
+[7.853242] (moveo_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_moveit_config/share/moveo_moveit_config/config/moveit_controllers.yaml\n'}
+[7.853476] (moveo_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_moveit_config/share/moveo_moveit_config/config/ros2_controllers.yaml\n'}
+[7.853679] (moveo_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_moveit_config/share/moveo_moveit_config/config/joint_limits.yaml\n'}
+[7.853864] (moveo_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_moveit_config/share/moveo_moveit_config/config/panda.srdf\n'}
+[7.854046] (moveo_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_moveit_config/share/moveo_moveit_config/config/moveit.rviz\n'}
+[7.854257] (moveo_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_moveit_config/share/moveo_moveit_config/config/kinematics.yaml\n'}
+[7.854466] (moveo_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_moveit_config/share/moveo_moveit_config/config/panda.urdf.xacro\n'}
+[7.854704] (moveo_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_moveit_config/share/moveo_moveit_config/.setup_assistant\n'}
+[7.856053] (moveo_moveit_config) CommandEnded: {'returncode': 0}
+[7.871284] (-) TimerEvent: {}
+[7.930282] (moveo_moveit_config) JobEnded: {'identifier': 'moveo_moveit_config', 'rc': 0}
+[7.971422] (-) TimerEvent: {}
+[8.071866] (-) TimerEvent: {}
+[8.172344] (-) TimerEvent: {}
+[8.272759] (-) TimerEvent: {}
+[8.373323] (-) TimerEvent: {}
+[8.474019] (-) TimerEvent: {}
+[8.574730] (-) TimerEvent: {}
+[8.675489] (-) TimerEvent: {}
+[8.776030] (-) TimerEvent: {}
+[8.876644] (-) TimerEvent: {}
+[8.977249] (-) TimerEvent: {}
+[9.077751] (-) TimerEvent: {}
+[9.178244] (-) TimerEvent: {}
+[9.278856] (-) TimerEvent: {}
+[9.379439] (-) TimerEvent: {}
+[9.480079] (-) TimerEvent: {}
+[9.580683] (-) TimerEvent: {}
+[9.681319] (-) TimerEvent: {}
+[9.782087] (-) TimerEvent: {}
+[9.882720] (-) TimerEvent: {}
+[9.983304] (-) TimerEvent: {}
+[10.083968] (-) TimerEvent: {}
+[10.184582] (-) TimerEvent: {}
+[10.285238] (-) TimerEvent: {}
+[10.385920] (-) TimerEvent: {}
+[10.486542] (-) TimerEvent: {}
+[10.587162] (-) TimerEvent: {}
+[10.687761] (-) TimerEvent: {}
+[10.788447] (-) TimerEvent: {}
+[10.889130] (-) TimerEvent: {}
+[10.989708] (-) TimerEvent: {}
+[11.090346] (-) TimerEvent: {}
+[11.190967] (-) TimerEvent: {}
+[11.291518] (-) TimerEvent: {}
+[11.391970] (-) TimerEvent: {}
+[11.492669] (-) TimerEvent: {}
+[11.593377] (-) TimerEvent: {}
+[11.694005] (-) TimerEvent: {}
+[11.794610] (-) TimerEvent: {}
+[11.895025] (-) TimerEvent: {}
+[11.995512] (-) TimerEvent: {}
+[12.096225] (-) TimerEvent: {}
+[12.196908] (-) TimerEvent: {}
+[12.297476] (-) TimerEvent: {}
+[12.397990] (-) TimerEvent: {}
+[12.498394] (-) TimerEvent: {}
+[12.598804] (-) TimerEvent: {}
+[12.617509] (gazebo_ros2_control) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o\x1b[0m\n'}
+[12.698941] (-) TimerEvent: {}
+[12.799485] (-) TimerEvent: {}
+[12.900131] (-) TimerEvent: {}
+[13.000825] (-) TimerEvent: {}
+[13.101402] (-) TimerEvent: {}
+[13.201994] (-) TimerEvent: {}
+[13.302695] (-) TimerEvent: {}
+[13.403297] (-) TimerEvent: {}
+[13.503747] (-) TimerEvent: {}
+[13.604303] (-) TimerEvent: {}
+[13.704922] (-) TimerEvent: {}
+[13.805422] (-) TimerEvent: {}
+[13.906111] (-) TimerEvent: {}
+[14.006683] (-) TimerEvent: {}
+[14.107324] (-) TimerEvent: {}
+[14.207998] (-) TimerEvent: {}
+[14.308516] (-) TimerEvent: {}
+[14.409031] (-) TimerEvent: {}
+[14.509545] (-) TimerEvent: {}
+[14.610041] (-) TimerEvent: {}
+[14.710786] (-) TimerEvent: {}
+[14.811432] (-) TimerEvent: {}
+[14.912011] (-) TimerEvent: {}
+[15.012667] (-) TimerEvent: {}
+[15.113287] (-) TimerEvent: {}
+[15.213885] (-) TimerEvent: {}
+[15.314499] (-) TimerEvent: {}
+[15.415086] (-) TimerEvent: {}
+[15.515695] (-) TimerEvent: {}
+[15.616337] (-) TimerEvent: {}
+[15.717003] (-) TimerEvent: {}
+[15.817710] (-) TimerEvent: {}
+[15.918458] (-) TimerEvent: {}
+[16.019078] (-) TimerEvent: {}
+[16.119810] (-) TimerEvent: {}
+[16.220451] (-) TimerEvent: {}
+[16.321082] (-) TimerEvent: {}
+[16.421511] (-) TimerEvent: {}
+[16.521973] (-) TimerEvent: {}
+[16.622695] (-) TimerEvent: {}
+[16.723286] (-) TimerEvent: {}
+[16.823940] (-) TimerEvent: {}
+[16.924714] (-) TimerEvent: {}
+[17.025404] (-) TimerEvent: {}
+[17.125910] (-) TimerEvent: {}
+[17.226475] (-) TimerEvent: {}
+[17.327195] (-) TimerEvent: {}
+[17.427786] (-) TimerEvent: {}
+[17.528423] (-) TimerEvent: {}
+[17.629105] (-) TimerEvent: {}
+[17.729820] (-) TimerEvent: {}
+[17.830523] (-) TimerEvent: {}
+[17.931393] (-) TimerEvent: {}
+[18.032157] (-) TimerEvent: {}
+[18.132960] (-) TimerEvent: {}
+[18.233758] (-) TimerEvent: {}
+[18.334361] (-) TimerEvent: {}
+[18.435100] (-) TimerEvent: {}
+[18.535682] (-) TimerEvent: {}
+[18.636305] (-) TimerEvent: {}
+[18.737042] (-) TimerEvent: {}
+[18.837811] (-) TimerEvent: {}
+[18.938523] (-) TimerEvent: {}
+[19.039223] (-) TimerEvent: {}
+[19.139850] (-) TimerEvent: {}
+[19.240284] (-) TimerEvent: {}
+[19.340708] (-) TimerEvent: {}
+[19.441128] (-) TimerEvent: {}
+[19.541580] (-) TimerEvent: {}
+[19.642032] (-) TimerEvent: {}
+[19.742661] (-) TimerEvent: {}
+[19.843224] (-) TimerEvent: {}
+[19.943910] (-) TimerEvent: {}
+[20.044671] (-) TimerEvent: {}
+[20.145305] (-) TimerEvent: {}
+[20.245937] (-) TimerEvent: {}
+[20.346701] (-) TimerEvent: {}
+[20.447350] (-) TimerEvent: {}
+[20.547825] (-) TimerEvent: {}
+[20.648336] (-) TimerEvent: {}
+[20.748837] (-) TimerEvent: {}
+[20.849361] (-) TimerEvent: {}
+[20.949918] (-) TimerEvent: {}
+[21.050612] (-) TimerEvent: {}
+[21.151269] (-) TimerEvent: {}
+[21.251925] (-) TimerEvent: {}
+[21.352426] (-) TimerEvent: {}
+[21.453132] (-) TimerEvent: {}
+[21.553695] (-) TimerEvent: {}
+[21.654269] (-) TimerEvent: {}
+[21.754916] (-) TimerEvent: {}
+[21.855582] (-) TimerEvent: {}
+[21.956260] (-) TimerEvent: {}
+[22.057011] (-) TimerEvent: {}
+[22.157647] (-) TimerEvent: {}
+[22.258311] (-) TimerEvent: {}
+[22.358954] (-) TimerEvent: {}
+[22.459524] (-) TimerEvent: {}
+[22.560101] (-) TimerEvent: {}
+[22.660747] (-) TimerEvent: {}
+[22.761431] (-) TimerEvent: {}
+[22.862112] (-) TimerEvent: {}
+[22.962825] (-) TimerEvent: {}
+[23.063568] (-) TimerEvent: {}
+[23.164160] (-) TimerEvent: {}
+[23.264768] (-) TimerEvent: {}
+[23.365274] (-) TimerEvent: {}
+[23.465762] (-) TimerEvent: {}
+[23.566212] (-) TimerEvent: {}
+[23.666705] (-) TimerEvent: {}
+[23.767215] (-) TimerEvent: {}
+[23.867795] (-) TimerEvent: {}
+[23.968251] (-) TimerEvent: {}
+[24.068898] (-) TimerEvent: {}
+[24.169573] (-) TimerEvent: {}
+[24.270273] (-) TimerEvent: {}
+[24.370787] (-) TimerEvent: {}
+[24.471311] (-) TimerEvent: {}
+[24.571781] (-) TimerEvent: {}
+[24.672290] (-) TimerEvent: {}
+[24.772910] (-) TimerEvent: {}
+[24.873481] (-) TimerEvent: {}
+[24.974050] (-) TimerEvent: {}
+[25.074675] (-) TimerEvent: {}
+[25.175215] (-) TimerEvent: {}
+[25.275734] (-) TimerEvent: {}
+[25.376260] (-) TimerEvent: {}
+[25.476993] (-) TimerEvent: {}
+[25.577549] (-) TimerEvent: {}
+[25.678050] (-) TimerEvent: {}
+[25.779077] (-) TimerEvent: {}
+[25.879643] (-) TimerEvent: {}
+[25.980178] (-) TimerEvent: {}
+[26.080764] (-) TimerEvent: {}
+[26.181526] (-) TimerEvent: {}
+[26.282052] (-) TimerEvent: {}
+[26.382473] (-) TimerEvent: {}
+[26.482914] (-) TimerEvent: {}
+[26.583381] (-) TimerEvent: {}
+[26.683915] (-) TimerEvent: {}
+[26.784431] (-) TimerEvent: {}
+[26.884936] (-) TimerEvent: {}
+[26.985529] (-) TimerEvent: {}
+[27.086155] (-) TimerEvent: {}
+[27.187319] (-) TimerEvent: {}
+[27.287952] (-) TimerEvent: {}
+[27.388624] (-) TimerEvent: {}
+[27.489354] (-) TimerEvent: {}
+[27.590005] (-) TimerEvent: {}
+[27.691348] (-) TimerEvent: {}
+[27.792047] (-) TimerEvent: {}
+[27.893023] (-) TimerEvent: {}
+[27.993646] (-) TimerEvent: {}
+[28.094255] (-) TimerEvent: {}
+[28.194909] (-) TimerEvent: {}
+[28.295540] (-) TimerEvent: {}
+[28.396294] (-) TimerEvent: {}
+[28.497012] (-) TimerEvent: {}
+[28.597666] (-) TimerEvent: {}
+[28.698354] (-) TimerEvent: {}
+[28.798922] (-) TimerEvent: {}
+[28.899604] (-) TimerEvent: {}
+[29.000195] (-) TimerEvent: {}
+[29.100838] (-) TimerEvent: {}
+[29.201500] (-) TimerEvent: {}
+[29.302165] (-) TimerEvent: {}
+[29.402885] (-) TimerEvent: {}
+[29.503701] (-) TimerEvent: {}
+[29.604320] (-) TimerEvent: {}
+[29.704979] (-) TimerEvent: {}
+[29.805583] (-) TimerEvent: {}
+[29.906065] (-) TimerEvent: {}
+[30.006681] (-) TimerEvent: {}
+[30.107282] (-) TimerEvent: {}
+[30.207986] (-) TimerEvent: {}
+[30.308681] (-) TimerEvent: {}
+[30.409353] (-) TimerEvent: {}
+[30.510038] (-) TimerEvent: {}
+[30.610776] (-) TimerEvent: {}
+[30.711497] (-) TimerEvent: {}
+[30.812070] (-) TimerEvent: {}
+[30.912750] (-) TimerEvent: {}
+[31.013461] (-) TimerEvent: {}
+[31.114151] (-) TimerEvent: {}
+[31.214811] (-) TimerEvent: {}
+[31.315789] (-) TimerEvent: {}
+[31.416424] (-) TimerEvent: {}
+[31.517148] (-) TimerEvent: {}
+[31.617856] (-) TimerEvent: {}
+[31.718653] (-) TimerEvent: {}
+[31.819348] (-) TimerEvent: {}
+[31.920033] (-) TimerEvent: {}
+[32.020490] (-) TimerEvent: {}
+[32.121213] (-) TimerEvent: {}
+[32.221929] (-) TimerEvent: {}
+[32.322504] (-) TimerEvent: {}
+[32.423248] (-) TimerEvent: {}
+[32.523784] (-) TimerEvent: {}
+[32.624401] (-) TimerEvent: {}
+[32.725247] (-) TimerEvent: {}
+[32.825877] (-) TimerEvent: {}
+[32.926703] (-) TimerEvent: {}
+[33.027292] (-) TimerEvent: {}
+[33.128064] (-) TimerEvent: {}
+[33.229169] (-) TimerEvent: {}
+[33.329881] (-) TimerEvent: {}
+[33.430660] (-) TimerEvent: {}
+[33.531312] (-) TimerEvent: {}
+[33.632255] (-) TimerEvent: {}
+[33.732869] (-) TimerEvent: {}
+[33.833473] (-) TimerEvent: {}
+[33.934144] (-) TimerEvent: {}
+[34.034763] (-) TimerEvent: {}
+[34.135410] (-) TimerEvent: {}
+[34.236013] (-) TimerEvent: {}
+[34.336696] (-) TimerEvent: {}
+[34.437330] (-) TimerEvent: {}
+[34.538670] (-) TimerEvent: {}
+[34.639370] (-) TimerEvent: {}
+[34.740058] (-) TimerEvent: {}
+[34.840738] (-) TimerEvent: {}
+[34.941192] (-) TimerEvent: {}
+[35.041819] (-) TimerEvent: {}
+[35.142535] (-) TimerEvent: {}
+[35.243360] (-) TimerEvent: {}
+[35.343982] (-) TimerEvent: {}
+[35.444603] (-) TimerEvent: {}
+[35.545251] (-) TimerEvent: {}
+[35.645880] (-) TimerEvent: {}
+[35.746512] (-) TimerEvent: {}
+[35.847310] (-) TimerEvent: {}
+[35.948018] (-) TimerEvent: {}
+[36.048660] (-) TimerEvent: {}
+[36.149274] (-) TimerEvent: {}
+[36.249948] (-) TimerEvent: {}
+[36.350625] (-) TimerEvent: {}
+[36.451263] (-) TimerEvent: {}
+[36.551924] (-) TimerEvent: {}
+[36.652469] (-) TimerEvent: {}
+[36.753100] (-) TimerEvent: {}
+[36.853677] (-) TimerEvent: {}
+[36.954213] (-) TimerEvent: {}
+[37.054934] (-) TimerEvent: {}
+[37.155735] (-) TimerEvent: {}
+[37.256380] (-) TimerEvent: {}
+[37.356968] (-) TimerEvent: {}
+[37.457680] (-) TimerEvent: {}
+[37.558302] (-) TimerEvent: {}
+[37.658741] (-) TimerEvent: {}
+[37.759202] (-) TimerEvent: {}
+[37.859913] (-) TimerEvent: {}
+[37.960578] (-) TimerEvent: {}
+[38.061183] (-) TimerEvent: {}
+[38.161806] (-) TimerEvent: {}
+[38.262446] (-) TimerEvent: {}
+[38.363112] (-) TimerEvent: {}
+[38.463896] (-) TimerEvent: {}
+[38.564470] (-) TimerEvent: {}
+[38.665015] (-) TimerEvent: {}
+[38.765555] (-) TimerEvent: {}
+[38.866099] (-) TimerEvent: {}
+[38.966715] (-) TimerEvent: {}
+[39.067368] (-) TimerEvent: {}
+[39.167960] (-) TimerEvent: {}
+[39.268645] (-) TimerEvent: {}
+[39.369229] (-) TimerEvent: {}
+[39.469826] (-) TimerEvent: {}
+[39.570541] (-) TimerEvent: {}
+[39.671226] (-) TimerEvent: {}
+[39.771943] (-) TimerEvent: {}
+[39.872558] (-) TimerEvent: {}
+[39.973193] (-) TimerEvent: {}
+[40.073823] (-) TimerEvent: {}
+[40.174395] (-) TimerEvent: {}
+[40.275088] (-) TimerEvent: {}
+[40.376203] (-) TimerEvent: {}
+[40.476921] (-) TimerEvent: {}
+[40.577525] (-) TimerEvent: {}
+[40.678133] (-) TimerEvent: {}
+[40.778806] (-) TimerEvent: {}
+[40.879365] (-) TimerEvent: {}
+[40.979801] (-) TimerEvent: {}
+[41.080222] (-) TimerEvent: {}
+[41.180673] (-) TimerEvent: {}
+[41.281349] (-) TimerEvent: {}
+[41.382054] (-) TimerEvent: {}
+[41.482475] (-) TimerEvent: {}
+[41.582917] (-) TimerEvent: {}
+[41.683361] (-) TimerEvent: {}
+[41.783838] (-) TimerEvent: {}
+[41.884477] (-) TimerEvent: {}
+[41.985096] (-) TimerEvent: {}
+[42.085712] (-) TimerEvent: {}
+[42.186337] (-) TimerEvent: {}
+[42.287026] (-) TimerEvent: {}
+[42.387606] (-) TimerEvent: {}
+[42.488232] (-) TimerEvent: {}
+[42.589042] (-) TimerEvent: {}
+[42.689653] (-) TimerEvent: {}
+[42.790419] (-) TimerEvent: {}
+[42.891161] (-) TimerEvent: {}
+[42.991750] (-) TimerEvent: {}
+[43.092351] (-) TimerEvent: {}
+[43.193023] (-) TimerEvent: {}
+[43.294112] (-) TimerEvent: {}
+[43.394778] (-) TimerEvent: {}
+[43.495344] (-) TimerEvent: {}
+[43.595948] (-) TimerEvent: {}
+[43.696485] (-) TimerEvent: {}
+[43.797080] (-) TimerEvent: {}
+[43.897686] (-) TimerEvent: {}
+[43.998288] (-) TimerEvent: {}
+[44.098864] (-) TimerEvent: {}
+[44.199606] (-) TimerEvent: {}
+[44.300088] (-) TimerEvent: {}
+[44.400643] (-) TimerEvent: {}
+[44.501502] (-) TimerEvent: {}
+[44.602125] (-) TimerEvent: {}
+[44.702656] (-) TimerEvent: {}
+[44.803169] (-) TimerEvent: {}
+[44.903611] (-) TimerEvent: {}
+[45.004067] (-) TimerEvent: {}
+[45.104520] (-) TimerEvent: {}
+[45.205105] (-) TimerEvent: {}
+[45.305749] (-) TimerEvent: {}
+[45.406238] (-) TimerEvent: {}
+[45.506847] (-) TimerEvent: {}
+[45.607553] (-) TimerEvent: {}
+[45.708365] (-) TimerEvent: {}
+[45.809020] (-) TimerEvent: {}
+[45.909804] (-) TimerEvent: {}
+[46.010631] (-) TimerEvent: {}
+[46.111311] (-) TimerEvent: {}
+[46.212049] (-) TimerEvent: {}
+[46.312647] (-) TimerEvent: {}
+[46.413255] (-) TimerEvent: {}
+[46.513712] (-) TimerEvent: {}
+[46.614252] (-) TimerEvent: {}
+[46.714968] (-) TimerEvent: {}
+[46.816198] (-) TimerEvent: {}
+[46.916961] (-) TimerEvent: {}
+[47.017695] (-) TimerEvent: {}
+[47.118342] (-) TimerEvent: {}
+[47.219044] (-) TimerEvent: {}
+[47.319560] (-) TimerEvent: {}
+[47.420053] (-) TimerEvent: {}
+[47.520721] (-) TimerEvent: {}
+[47.621289] (-) TimerEvent: {}
+[47.721932] (-) TimerEvent: {}
+[47.822491] (-) TimerEvent: {}
+[47.923040] (-) TimerEvent: {}
+[48.023637] (-) TimerEvent: {}
+[48.124379] (-) TimerEvent: {}
+[48.224959] (-) TimerEvent: {}
+[48.325482] (-) TimerEvent: {}
+[48.426163] (-) TimerEvent: {}
+[48.526872] (-) TimerEvent: {}
+[48.627503] (-) TimerEvent: {}
+[48.728034] (-) TimerEvent: {}
+[48.828603] (-) TimerEvent: {}
+[48.929136] (-) TimerEvent: {}
+[49.029619] (-) TimerEvent: {}
+[49.130241] (-) TimerEvent: {}
+[49.230807] (-) TimerEvent: {}
+[49.331335] (-) TimerEvent: {}
+[49.431897] (-) TimerEvent: {}
+[49.532523] (-) TimerEvent: {}
+[49.633177] (-) TimerEvent: {}
+[49.733903] (-) TimerEvent: {}
+[49.834893] (-) TimerEvent: {}
+[49.935397] (-) TimerEvent: {}
+[50.035868] (-) TimerEvent: {}
+[50.136376] (-) TimerEvent: {}
+[50.236879] (-) TimerEvent: {}
+[50.337355] (-) TimerEvent: {}
+[50.437815] (-) TimerEvent: {}
+[50.538324] (-) TimerEvent: {}
+[50.638875] (-) TimerEvent: {}
+[50.739350] (-) TimerEvent: {}
+[50.839836] (-) TimerEvent: {}
+[50.940332] (-) TimerEvent: {}
+[51.040818] (-) TimerEvent: {}
+[51.141312] (-) TimerEvent: {}
+[51.241945] (-) TimerEvent: {}
+[51.342441] (-) TimerEvent: {}
+[51.442988] (-) TimerEvent: {}
+[51.543406] (-) TimerEvent: {}
+[51.643934] (-) TimerEvent: {}
+[51.744429] (-) TimerEvent: {}
+[51.844936] (-) TimerEvent: {}
+[51.945432] (-) TimerEvent: {}
+[52.045965] (-) TimerEvent: {}
+[52.146461] (-) TimerEvent: {}
+[52.246980] (-) TimerEvent: {}
+[52.347472] (-) TimerEvent: {}
+[52.448074] (-) TimerEvent: {}
+[52.548585] (-) TimerEvent: {}
+[52.649075] (-) TimerEvent: {}
+[52.749621] (-) TimerEvent: {}
+[52.850096] (-) TimerEvent: {}
+[52.950646] (-) TimerEvent: {}
+[53.051285] (-) TimerEvent: {}
+[53.151798] (-) TimerEvent: {}
+[53.252360] (-) TimerEvent: {}
+[53.352869] (-) TimerEvent: {}
+[53.453365] (-) TimerEvent: {}
+[53.553897] (-) TimerEvent: {}
+[53.654398] (-) TimerEvent: {}
+[53.754880] (-) TimerEvent: {}
+[53.855331] (-) TimerEvent: {}
+[53.955804] (-) TimerEvent: {}
+[54.056277] (-) TimerEvent: {}
+[54.156724] (-) TimerEvent: {}
+[54.257199] (-) TimerEvent: {}
+[54.357747] (-) TimerEvent: {}
+[54.458241] (-) TimerEvent: {}
+[54.558751] (-) TimerEvent: {}
+[54.659252] (-) TimerEvent: {}
+[54.759789] (-) TimerEvent: {}
+[54.860285] (-) TimerEvent: {}
+[54.960733] (-) TimerEvent: {}
+[55.061185] (-) TimerEvent: {}
+[55.161673] (-) TimerEvent: {}
+[55.262178] (-) TimerEvent: {}
+[55.362748] (-) TimerEvent: {}
+[55.463199] (-) TimerEvent: {}
+[55.563667] (-) TimerEvent: {}
+[55.664173] (-) TimerEvent: {}
+[55.764633] (-) TimerEvent: {}
+[55.865097] (-) TimerEvent: {}
+[55.965588] (-) TimerEvent: {}
+[56.066113] (-) TimerEvent: {}
+[56.166627] (-) TimerEvent: {}
+[56.267116] (-) TimerEvent: {}
+[56.367680] (-) TimerEvent: {}
+[56.468146] (-) TimerEvent: {}
+[56.568664] (-) TimerEvent: {}
+[56.669219] (-) TimerEvent: {}
+[56.769686] (-) TimerEvent: {}
+[56.870195] (-) TimerEvent: {}
+[56.970675] (-) TimerEvent: {}
+[57.071174] (-) TimerEvent: {}
+[57.171659] (-) TimerEvent: {}
+[57.272148] (-) TimerEvent: {}
+[57.372651] (-) TimerEvent: {}
+[57.473139] (-) TimerEvent: {}
+[57.573625] (-) TimerEvent: {}
+[57.674112] (-) TimerEvent: {}
+[57.774638] (-) TimerEvent: {}
+[57.875131] (-) TimerEvent: {}
+[57.975625] (-) TimerEvent: {}
+[58.076152] (-) TimerEvent: {}
+[58.176656] (-) TimerEvent: {}
+[58.277213] (-) TimerEvent: {}
+[58.377732] (-) TimerEvent: {}
+[58.478228] (-) TimerEvent: {}
+[58.578743] (-) TimerEvent: {}
+[58.679221] (-) TimerEvent: {}
+[58.779704] (-) TimerEvent: {}
+[58.880204] (-) TimerEvent: {}
+[58.980684] (-) TimerEvent: {}
+[59.081174] (-) TimerEvent: {}
+[59.181652] (-) TimerEvent: {}
+[59.282156] (-) TimerEvent: {}
+[59.382650] (-) TimerEvent: {}
+[59.483123] (-) TimerEvent: {}
+[59.583594] (-) TimerEvent: {}
+[59.684069] (-) TimerEvent: {}
+[59.784551] (-) TimerEvent: {}
+[59.885016] (-) TimerEvent: {}
+[59.985482] (-) TimerEvent: {}
+[60.085914] (-) TimerEvent: {}
+[60.186326] (-) TimerEvent: {}
+[60.286753] (-) TimerEvent: {}
+[60.387219] (-) TimerEvent: {}
+[60.487656] (-) TimerEvent: {}
+[60.588084] (-) TimerEvent: {}
+[60.688516] (-) TimerEvent: {}
+[60.788920] (-) TimerEvent: {}
+[60.889341] (-) TimerEvent: {}
+[60.989788] (-) TimerEvent: {}
+[61.090239] (-) TimerEvent: {}
+[61.190664] (-) TimerEvent: {}
+[61.291079] (-) TimerEvent: {}
+[61.391492] (-) TimerEvent: {}
+[61.491906] (-) TimerEvent: {}
+[61.592300] (-) TimerEvent: {}
+[61.692794] (-) TimerEvent: {}
+[61.793265] (-) TimerEvent: {}
+[61.893785] (-) TimerEvent: {}
+[61.994300] (-) TimerEvent: {}
+[62.094843] (-) TimerEvent: {}
+[62.195342] (-) TimerEvent: {}
+[62.295813] (-) TimerEvent: {}
+[62.396214] (-) TimerEvent: {}
+[62.496718] (-) TimerEvent: {}
+[62.597242] (-) TimerEvent: {}
+[62.697662] (-) TimerEvent: {}
+[62.798063] (-) TimerEvent: {}
+[62.898482] (-) TimerEvent: {}
+[62.998944] (-) TimerEvent: {}
+[63.099415] (-) TimerEvent: {}
+[63.199868] (-) TimerEvent: {}
+[63.300330] (-) TimerEvent: {}
+[63.400770] (-) TimerEvent: {}
+[63.501236] (-) TimerEvent: {}
+[63.601672] (-) TimerEvent: {}
+[63.702137] (-) TimerEvent: {}
+[63.802637] (-) TimerEvent: {}
+[63.903055] (-) TimerEvent: {}
+[64.003559] (-) TimerEvent: {}
+[64.104046] (-) TimerEvent: {}
+[64.204478] (-) TimerEvent: {}
+[64.304941] (-) TimerEvent: {}
+[64.405408] (-) TimerEvent: {}
+[64.505875] (-) TimerEvent: {}
+[64.606404] (-) TimerEvent: {}
+[64.707049] (-) TimerEvent: {}
+[64.807536] (-) TimerEvent: {}
+[64.908034] (-) TimerEvent: {}
+[65.008605] (-) TimerEvent: {}
+[65.109113] (-) TimerEvent: {}
+[65.209604] (-) TimerEvent: {}
+[65.310110] (-) TimerEvent: {}
+[65.410669] (-) TimerEvent: {}
+[65.511173] (-) TimerEvent: {}
+[65.611694] (-) TimerEvent: {}
+[65.712229] (-) TimerEvent: {}
+[65.812746] (-) TimerEvent: {}
+[65.913251] (-) TimerEvent: {}
+[66.013729] (-) TimerEvent: {}
+[66.114214] (-) TimerEvent: {}
+[66.214668] (-) TimerEvent: {}
+[66.315178] (-) TimerEvent: {}
+[66.415639] (-) TimerEvent: {}
+[66.516125] (-) TimerEvent: {}
+[66.616609] (-) TimerEvent: {}
+[66.717109] (-) TimerEvent: {}
+[66.817607] (-) TimerEvent: {}
+[66.918120] (-) TimerEvent: {}
+[67.018586] (-) TimerEvent: {}
+[67.119086] (-) TimerEvent: {}
+[67.219668] (-) TimerEvent: {}
+[67.320170] (-) TimerEvent: {}
+[67.421176] (-) TimerEvent: {}
+[67.521707] (-) TimerEvent: {}
+[67.622284] (-) TimerEvent: {}
+[67.722801] (-) TimerEvent: {}
+[67.823229] (-) TimerEvent: {}
+[67.923732] (-) TimerEvent: {}
+[68.024284] (-) TimerEvent: {}
+[68.124767] (-) TimerEvent: {}
+[68.225313] (-) TimerEvent: {}
+[68.325852] (-) TimerEvent: {}
+[68.426522] (-) TimerEvent: {}
+[68.527088] (-) TimerEvent: {}
+[68.627611] (-) TimerEvent: {}
+[68.728130] (-) TimerEvent: {}
+[68.828630] (-) TimerEvent: {}
+[68.929206] (-) TimerEvent: {}
+[69.029756] (-) TimerEvent: {}
+[69.130278] (-) TimerEvent: {}
+[69.230796] (-) TimerEvent: {}
+[69.331250] (-) TimerEvent: {}
+[69.431766] (-) TimerEvent: {}
+[69.532263] (-) TimerEvent: {}
+[69.632770] (-) TimerEvent: {}
+[69.733265] (-) TimerEvent: {}
+[69.833733] (-) TimerEvent: {}
+[69.934241] (-) TimerEvent: {}
+[70.034757] (-) TimerEvent: {}
+[70.135300] (-) TimerEvent: {}
+[70.235772] (-) TimerEvent: {}
+[70.336205] (-) TimerEvent: {}
+[70.436658] (-) TimerEvent: {}
+[70.537124] (-) TimerEvent: {}
+[70.637632] (-) TimerEvent: {}
+[70.738146] (-) TimerEvent: {}
+[70.838654] (-) TimerEvent: {}
+[70.939213] (-) TimerEvent: {}
+[71.039737] (-) TimerEvent: {}
+[71.140284] (-) TimerEvent: {}
+[71.240754] (-) TimerEvent: {}
+[71.341294] (-) TimerEvent: {}
+[71.442486] (-) TimerEvent: {}
+[71.543050] (-) TimerEvent: {}
+[71.643630] (-) TimerEvent: {}
+[71.744099] (-) TimerEvent: {}
+[71.844625] (-) TimerEvent: {}
+[71.945092] (-) TimerEvent: {}
+[72.045522] (-) TimerEvent: {}
+[72.145932] (-) TimerEvent: {}
+[72.246358] (-) TimerEvent: {}
+[72.346798] (-) TimerEvent: {}
+[72.447265] (-) TimerEvent: {}
+[72.547753] (-) TimerEvent: {}
+[72.648207] (-) TimerEvent: {}
+[72.748670] (-) TimerEvent: {}
+[72.849127] (-) TimerEvent: {}
+[72.949587] (-) TimerEvent: {}
+[73.050037] (-) TimerEvent: {}
+[73.150491] (-) TimerEvent: {}
+[73.250969] (-) TimerEvent: {}
+[73.351393] (-) TimerEvent: {}
+[73.451808] (-) TimerEvent: {}
+[73.552235] (-) TimerEvent: {}
+[73.652747] (-) TimerEvent: {}
+[73.753440] (-) TimerEvent: {}
+[73.853925] (-) TimerEvent: {}
+[73.954434] (-) TimerEvent: {}
+[74.054927] (-) TimerEvent: {}
+[74.155417] (-) TimerEvent: {}
+[74.255901] (-) TimerEvent: {}
+[74.356384] (-) TimerEvent: {}
+[74.456875] (-) TimerEvent: {}
+[74.562488] (-) TimerEvent: {}
+[74.663432] (-) TimerEvent: {}
+[74.763936] (-) TimerEvent: {}
+[74.864417] (-) TimerEvent: {}
+[74.964921] (-) TimerEvent: {}
+[75.065427] (-) TimerEvent: {}
+[75.165950] (-) TimerEvent: {}
+[75.266658] (-) TimerEvent: {}
+[75.367197] (-) TimerEvent: {}
+[75.467700] (-) TimerEvent: {}
+[75.568294] (-) TimerEvent: {}
+[75.668832] (-) TimerEvent: {}
+[75.769362] (-) TimerEvent: {}
+[75.869848] (-) TimerEvent: {}
+[75.970351] (-) TimerEvent: {}
+[76.070874] (-) TimerEvent: {}
+[76.127488] (gazebo_ros2_control) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libgazebo_ros2_control.so\x1b[0m\n'}
+[76.171018] (-) TimerEvent: {}
+[76.271453] (-) TimerEvent: {}
+[76.371946] (-) TimerEvent: {}
+[76.472538] (-) TimerEvent: {}
+[76.573213] (-) TimerEvent: {}
+[76.673706] (-) TimerEvent: {}
+[76.774407] (-) TimerEvent: {}
+[76.875158] (-) TimerEvent: {}
+[76.975792] (-) TimerEvent: {}
+[77.076312] (-) TimerEvent: {}
+[77.176941] (-) TimerEvent: {}
+[77.277488] (-) TimerEvent: {}
+[77.378185] (-) TimerEvent: {}
+[77.478945] (-) TimerEvent: {}
+[77.579597] (-) TimerEvent: {}
+[77.680258] (-) TimerEvent: {}
+[77.781068] (-) TimerEvent: {}
+[77.882257] (-) TimerEvent: {}
+[77.982859] (-) TimerEvent: {}
+[78.083455] (-) TimerEvent: {}
+[78.184203] (-) TimerEvent: {}
+[78.284988] (-) TimerEvent: {}
+[78.385653] (-) TimerEvent: {}
+[78.486295] (-) TimerEvent: {}
+[78.586967] (-) TimerEvent: {}
+[78.687620] (-) TimerEvent: {}
+[78.788313] (-) TimerEvent: {}
+[78.888947] (-) TimerEvent: {}
+[78.989673] (-) TimerEvent: {}
+[79.090323] (-) TimerEvent: {}
+[79.190998] (-) TimerEvent: {}
+[79.292172] (-) TimerEvent: {}
+[79.392813] (-) TimerEvent: {}
+[79.493425] (-) TimerEvent: {}
+[79.594059] (-) TimerEvent: {}
+[79.695149] (-) TimerEvent: {}
+[79.795813] (-) TimerEvent: {}
+[79.896514] (-) TimerEvent: {}
+[79.997308] (-) TimerEvent: {}
+[80.098069] (-) TimerEvent: {}
+[80.199194] (-) TimerEvent: {}
+[80.300043] (-) TimerEvent: {}
+[80.400728] (-) TimerEvent: {}
+[80.501660] (-) TimerEvent: {}
+[80.602533] (-) TimerEvent: {}
+[80.703294] (-) TimerEvent: {}
+[80.803939] (-) TimerEvent: {}
+[80.904604] (-) TimerEvent: {}
+[81.005325] (-) TimerEvent: {}
+[81.106049] (-) TimerEvent: {}
+[81.206760] (-) TimerEvent: {}
+[81.307484] (-) TimerEvent: {}
+[81.408213] (-) TimerEvent: {}
+[81.509019] (-) TimerEvent: {}
+[81.609719] (-) TimerEvent: {}
+[81.710626] (-) TimerEvent: {}
+[81.811357] (-) TimerEvent: {}
+[81.912243] (-) TimerEvent: {}
+[82.012969] (-) TimerEvent: {}
+[82.113671] (-) TimerEvent: {}
+[82.214297] (-) TimerEvent: {}
+[82.314855] (-) TimerEvent: {}
+[82.415439] (-) TimerEvent: {}
+[82.516116] (-) TimerEvent: {}
+[82.616550] (-) TimerEvent: {}
+[82.717073] (-) TimerEvent: {}
+[82.818084] (-) TimerEvent: {}
+[82.868077] (gazebo_ros2_control) StdoutLine: {'line': b'[ 50%] Built target gazebo_ros2_control\n'}
+[82.918224] (-) TimerEvent: {}
+[82.955985] (gazebo_ros2_control) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o\x1b[0m\n'}
+[83.018346] (-) TimerEvent: {}
+[83.118800] (-) TimerEvent: {}
+[83.219307] (-) TimerEvent: {}
+[83.319811] (-) TimerEvent: {}
+[83.420313] (-) TimerEvent: {}
+[83.520776] (-) TimerEvent: {}
+[83.621230] (-) TimerEvent: {}
+[83.721683] (-) TimerEvent: {}
+[83.822144] (-) TimerEvent: {}
+[83.922643] (-) TimerEvent: {}
+[84.023108] (-) TimerEvent: {}
+[84.123559] (-) TimerEvent: {}
+[84.224014] (-) TimerEvent: {}
+[84.324463] (-) TimerEvent: {}
+[84.424907] (-) TimerEvent: {}
+[84.525370] (-) TimerEvent: {}
+[84.625843] (-) TimerEvent: {}
+[84.726355] (-) TimerEvent: {}
+[84.826841] (-) TimerEvent: {}
+[84.927310] (-) TimerEvent: {}
+[85.027780] (-) TimerEvent: {}
+[85.128310] (-) TimerEvent: {}
+[85.228845] (-) TimerEvent: {}
+[85.329327] (-) TimerEvent: {}
+[85.429788] (-) TimerEvent: {}
+[85.530243] (-) TimerEvent: {}
+[85.630742] (-) TimerEvent: {}
+[85.731250] (-) TimerEvent: {}
+[85.831748] (-) TimerEvent: {}
+[85.932243] (-) TimerEvent: {}
+[86.032715] (-) TimerEvent: {}
+[86.133204] (-) TimerEvent: {}
+[86.233675] (-) TimerEvent: {}
+[86.334145] (-) TimerEvent: {}
+[86.434666] (-) TimerEvent: {}
+[86.535196] (-) TimerEvent: {}
+[86.635799] (-) TimerEvent: {}
+[86.736262] (-) TimerEvent: {}
+[86.836736] (-) TimerEvent: {}
+[86.937256] (-) TimerEvent: {}
+[87.037770] (-) TimerEvent: {}
+[87.138281] (-) TimerEvent: {}
+[87.238825] (-) TimerEvent: {}
+[87.339310] (-) TimerEvent: {}
+[87.439793] (-) TimerEvent: {}
+[87.540247] (-) TimerEvent: {}
+[87.640710] (-) TimerEvent: {}
+[87.741176] (-) TimerEvent: {}
+[87.841683] (-) TimerEvent: {}
+[87.942220] (-) TimerEvent: {}
+[88.042775] (-) TimerEvent: {}
+[88.143277] (-) TimerEvent: {}
+[88.243769] (-) TimerEvent: {}
+[88.344262] (-) TimerEvent: {}
+[88.444782] (-) TimerEvent: {}
+[88.545315] (-) TimerEvent: {}
+[88.645808] (-) TimerEvent: {}
+[88.746318] (-) TimerEvent: {}
+[88.846862] (-) TimerEvent: {}
+[88.947387] (-) TimerEvent: {}
+[89.047893] (-) TimerEvent: {}
+[89.148388] (-) TimerEvent: {}
+[89.248870] (-) TimerEvent: {}
+[89.349340] (-) TimerEvent: {}
+[89.449764] (-) TimerEvent: {}
+[89.550248] (-) TimerEvent: {}
+[89.650739] (-) TimerEvent: {}
+[89.751188] (-) TimerEvent: {}
+[89.851663] (-) TimerEvent: {}
+[89.952226] (-) TimerEvent: {}
+[90.052693] (-) TimerEvent: {}
+[90.153155] (-) TimerEvent: {}
+[90.253633] (-) TimerEvent: {}
+[90.354226] (-) TimerEvent: {}
+[90.454776] (-) TimerEvent: {}
+[90.555252] (-) TimerEvent: {}
+[90.655703] (-) TimerEvent: {}
+[90.756163] (-) TimerEvent: {}
+[90.856702] (-) TimerEvent: {}
+[90.957202] (-) TimerEvent: {}
+[91.057746] (-) TimerEvent: {}
+[91.158237] (-) TimerEvent: {}
+[91.258733] (-) TimerEvent: {}
+[91.359210] (-) TimerEvent: {}
+[91.459659] (-) TimerEvent: {}
+[91.560121] (-) TimerEvent: {}
+[91.660560] (-) TimerEvent: {}
+[91.761043] (-) TimerEvent: {}
+[91.861533] (-) TimerEvent: {}
+[91.962047] (-) TimerEvent: {}
+[92.062578] (-) TimerEvent: {}
+[92.163125] (-) TimerEvent: {}
+[92.263627] (-) TimerEvent: {}
+[92.364150] (-) TimerEvent: {}
+[92.464691] (-) TimerEvent: {}
+[92.565170] (-) TimerEvent: {}
+[92.665672] (-) TimerEvent: {}
+[92.766192] (-) TimerEvent: {}
+[92.866685] (-) TimerEvent: {}
+[92.967149] (-) TimerEvent: {}
+[93.067623] (-) TimerEvent: {}
+[93.168235] (-) TimerEvent: {}
+[93.268751] (-) TimerEvent: {}
+[93.369285] (-) TimerEvent: {}
+[93.469782] (-) TimerEvent: {}
+[93.570273] (-) TimerEvent: {}
+[93.670814] (-) TimerEvent: {}
+[93.771295] (-) TimerEvent: {}
+[93.871785] (-) TimerEvent: {}
+[93.972290] (-) TimerEvent: {}
+[94.072799] (-) TimerEvent: {}
+[94.173301] (-) TimerEvent: {}
+[94.273787] (-) TimerEvent: {}
+[94.374305] (-) TimerEvent: {}
+[94.474816] (-) TimerEvent: {}
+[94.575341] (-) TimerEvent: {}
+[94.675845] (-) TimerEvent: {}
+[94.776361] (-) TimerEvent: {}
+[94.876910] (-) TimerEvent: {}
+[94.977388] (-) TimerEvent: {}
+[95.077807] (-) TimerEvent: {}
+[95.178287] (-) TimerEvent: {}
+[95.278803] (-) TimerEvent: {}
+[95.379315] (-) TimerEvent: {}
+[95.479827] (-) TimerEvent: {}
+[95.580311] (-) TimerEvent: {}
+[95.680818] (-) TimerEvent: {}
+[95.781347] (-) TimerEvent: {}
+[95.881864] (-) TimerEvent: {}
+[95.982357] (-) TimerEvent: {}
+[96.082844] (-) TimerEvent: {}
+[96.183317] (-) TimerEvent: {}
+[96.283834] (-) TimerEvent: {}
+[96.384416] (-) TimerEvent: {}
+[96.484924] (-) TimerEvent: {}
+[96.585442] (-) TimerEvent: {}
+[96.685970] (-) TimerEvent: {}
+[96.786476] (-) TimerEvent: {}
+[96.886977] (-) TimerEvent: {}
+[96.987488] (-) TimerEvent: {}
+[97.087993] (-) TimerEvent: {}
+[97.188493] (-) TimerEvent: {}
+[97.288983] (-) TimerEvent: {}
+[97.389467] (-) TimerEvent: {}
+[97.489937] (-) TimerEvent: {}
+[97.590425] (-) TimerEvent: {}
+[97.690927] (-) TimerEvent: {}
+[97.791411] (-) TimerEvent: {}
+[97.891861] (-) TimerEvent: {}
+[97.992352] (-) TimerEvent: {}
+[98.092915] (-) TimerEvent: {}
+[98.193397] (-) TimerEvent: {}
+[98.293898] (-) TimerEvent: {}
+[98.394423] (-) TimerEvent: {}
+[98.494974] (-) TimerEvent: {}
+[98.595428] (-) TimerEvent: {}
+[98.695873] (-) TimerEvent: {}
+[98.796315] (-) TimerEvent: {}
+[98.896757] (-) TimerEvent: {}
+[98.997204] (-) TimerEvent: {}
+[99.097671] (-) TimerEvent: {}
+[99.198157] (-) TimerEvent: {}
+[99.298685] (-) TimerEvent: {}
+[99.399260] (-) TimerEvent: {}
+[99.499818] (-) TimerEvent: {}
+[99.600346] (-) TimerEvent: {}
+[99.700829] (-) TimerEvent: {}
+[99.801356] (-) TimerEvent: {}
+[99.901919] (-) TimerEvent: {}
+[100.002467] (-) TimerEvent: {}
+[100.093373] (gazebo_ros2_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anand/Desktop/moveo_ros2/src/gazebo_ros2_control/src/gazebo_system.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::return_type gazebo_ros2_control::GazeboSystem::perform_command_mode_switch(const std::vector<std::__cxx11::basic_string<char> >&, const std::vector<std::__cxx11::basic_string<char> >&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[100.093843] (gazebo_ros2_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anand/Desktop/moveo_ros2/src/gazebo_ros2_control/src/gazebo_system.cpp:515:77:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicitly-declared \xe2\x80\x98\x1b[01m\x1b[Kconstexpr gazebo_ros2_control::SafeEnum<gazebo_ros2_control::GazeboSystemInterface::ControlMethod_>& gazebo_ros2_control::SafeEnum<gazebo_ros2_control::GazeboSystemInterface::ControlMethod_>::operator=(const gazebo_ros2_control::SafeEnum<gazebo_ros2_control::GazeboSystemInterface::ControlMethod_>&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy\x07-Wdeprecated-copy\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[100.094155] (gazebo_ros2_control) StderrLine: {'line': b'  515 |       this->dataPtr->joint_control_methods_[mimic_joint.mimicked_joint_index\x1b[01;35m\x1b[K]\x1b[m\x1b[K;\n'}
+[100.094418] (gazebo_ros2_control) StderrLine: {'line': b'      |                                                                             \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[100.094693] (gazebo_ros2_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/anand/Desktop/moveo_ros2/src/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system.hpp:25\x1b[m\x1b[K,\n'}
+[100.094938] (gazebo_ros2_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anand/Desktop/moveo_ros2/src/gazebo_ros2_control/src/gazebo_system.cpp:22\x1b[m\x1b[K:\n'}
+[100.095190] (gazebo_ros2_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anand/Desktop/moveo_ros2/src/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp:43:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kbecause \xe2\x80\x98\x1b[01m\x1b[Kgazebo_ros2_control::SafeEnum<gazebo_ros2_control::GazeboSystemInterface::ControlMethod_>\x1b[m\x1b[K\xe2\x80\x99 has user-provided \xe2\x80\x98\x1b[01m\x1b[Kgazebo_ros2_control::SafeEnum<ENUM, UNDERLYING>::SafeEnum(const gazebo_ros2_control::SafeEnum<ENUM, UNDERLYING>&) [with ENUM = gazebo_ros2_control::GazeboSystemInterface::ControlMethod_; UNDERLYING = unsigned int]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[100.095434] (gazebo_ros2_control) StderrLine: {'line': b'   43 |   \x1b[01;36m\x1b[KSafeEnum\x1b[m\x1b[K(const SafeEnum & original)\n'}
+[100.095660] (gazebo_ros2_control) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[100.102590] (-) TimerEvent: {}
+[100.203062] (-) TimerEvent: {}
+[100.303565] (-) TimerEvent: {}
+[100.404074] (-) TimerEvent: {}
+[100.504598] (-) TimerEvent: {}
+[100.605104] (-) TimerEvent: {}
+[100.705631] (-) TimerEvent: {}
+[100.806161] (-) TimerEvent: {}
+[100.906701] (-) TimerEvent: {}
+[101.007195] (-) TimerEvent: {}
+[101.107735] (-) TimerEvent: {}
+[101.208312] (-) TimerEvent: {}
+[101.308821] (-) TimerEvent: {}
+[101.409340] (-) TimerEvent: {}
+[101.509828] (-) TimerEvent: {}
+[101.610323] (-) TimerEvent: {}
+[101.710838] (-) TimerEvent: {}
+[101.811346] (-) TimerEvent: {}
+[101.911882] (-) TimerEvent: {}
+[102.012427] (-) TimerEvent: {}
+[102.112880] (-) TimerEvent: {}
+[102.213400] (-) TimerEvent: {}
+[102.313895] (-) TimerEvent: {}
+[102.414388] (-) TimerEvent: {}
+[102.514900] (-) TimerEvent: {}
+[102.615399] (-) TimerEvent: {}
+[102.715916] (-) TimerEvent: {}
+[102.816436] (-) TimerEvent: {}
+[102.916957] (-) TimerEvent: {}
+[103.017535] (-) TimerEvent: {}
+[103.117983] (-) TimerEvent: {}
+[103.218425] (-) TimerEvent: {}
+[103.318921] (-) TimerEvent: {}
+[103.419456] (-) TimerEvent: {}
+[103.519936] (-) TimerEvent: {}
+[103.620439] (-) TimerEvent: {}
+[103.720982] (-) TimerEvent: {}
+[103.821478] (-) TimerEvent: {}
+[103.921991] (-) TimerEvent: {}
+[104.022490] (-) TimerEvent: {}
+[104.123000] (-) TimerEvent: {}
+[104.223528] (-) TimerEvent: {}
+[104.324025] (-) TimerEvent: {}
+[104.424512] (-) TimerEvent: {}
+[104.525008] (-) TimerEvent: {}
+[104.625499] (-) TimerEvent: {}
+[104.726004] (-) TimerEvent: {}
+[104.826482] (-) TimerEvent: {}
+[104.926977] (-) TimerEvent: {}
+[105.027467] (-) TimerEvent: {}
+[105.127954] (-) TimerEvent: {}
+[105.228437] (-) TimerEvent: {}
+[105.328921] (-) TimerEvent: {}
+[105.429391] (-) TimerEvent: {}
+[105.529858] (-) TimerEvent: {}
+[105.630335] (-) TimerEvent: {}
+[105.730804] (-) TimerEvent: {}
+[105.831303] (-) TimerEvent: {}
+[105.931882] (-) TimerEvent: {}
+[106.032403] (-) TimerEvent: {}
+[106.132911] (-) TimerEvent: {}
+[106.233422] (-) TimerEvent: {}
+[106.333922] (-) TimerEvent: {}
+[106.434472] (-) TimerEvent: {}
+[106.534971] (-) TimerEvent: {}
+[106.635448] (-) TimerEvent: {}
+[106.735985] (-) TimerEvent: {}
+[106.836544] (-) TimerEvent: {}
+[106.937062] (-) TimerEvent: {}
+[107.037579] (-) TimerEvent: {}
+[107.138128] (-) TimerEvent: {}
+[107.193200] (gazebo_ros2_control) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libgazebo_hardware_plugins.so\x1b[0m\n'}
+[107.238261] (-) TimerEvent: {}
+[107.338714] (-) TimerEvent: {}
+[107.439454] (-) TimerEvent: {}
+[107.540065] (-) TimerEvent: {}
+[107.640623] (-) TimerEvent: {}
+[107.741151] (-) TimerEvent: {}
+[107.841705] (-) TimerEvent: {}
+[107.942376] (-) TimerEvent: {}
+[108.042966] (-) TimerEvent: {}
+[108.143543] (-) TimerEvent: {}
+[108.244091] (-) TimerEvent: {}
+[108.344585] (-) TimerEvent: {}
+[108.445132] (-) TimerEvent: {}
+[108.541822] (gazebo_ros2_control) StdoutLine: {'line': b'[100%] Built target gazebo_hardware_plugins\n'}
+[108.545267] (-) TimerEvent: {}
+[108.561142] (gazebo_ros2_control) CommandEnded: {'returncode': 0}
+[108.611241] (gazebo_ros2_control) JobProgress: {'identifier': 'gazebo_ros2_control', 'progress': 'install'}
+[108.612133] (gazebo_ros2_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/anand/Desktop/moveo_ros2/build/gazebo_ros2_control'], 'cwd': '/home/anand/Desktop/moveo_ros2/build/gazebo_ros2_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'anand'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/anand'), ('OLDPWD', '/home/anand'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1503'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/anand/Desktop/moveo_ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'anand'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'anand'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/anand/Desktop/moveo_ros2/install/moveo_arm/share'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/anand-HP-Pavilion-g6-Notebook-PC:@/tmp/.ICE-unix/1073,unix/anand-HP-Pavilion-g6-Notebook-PC:/tmp/.ICE-unix/1073'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8b440e6f_ba35_4695_ac25_ad8936874f6a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('IGN_FILE_PATH', '/home/anand/Desktop/ros2_moveo/src/panda_simulation'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.F2FV21'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.128'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/anand/Desktop/moveo_ros2/install/moveo_moveit_config:/home/anand/Desktop/moveo_ros2/install/moveo_arm:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/anand/Desktop/moveo_ros2/build/gazebo_ros2_control'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/anand/Desktop/moveo_ros2/install/moveo_moveit_config:/home/anand/Desktop/moveo_ros2/install/moveo_arm:/opt/ros/humble')]), 'shell': False}
+[108.645432] (-) TimerEvent: {}
+[108.685203] (gazebo_ros2_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[108.685849] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/lib/libgazebo_ros2_control.so\n'}
+[108.709018] (gazebo_ros2_control) StdoutLine: {'line': b'-- Set runtime path of "/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/lib/libgazebo_ros2_control.so" to ""\n'}
+[108.709407] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/lib/libgazebo_hardware_plugins.so\n'}
+[108.715111] (gazebo_ros2_control) StdoutLine: {'line': b'-- Set runtime path of "/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/lib/libgazebo_hardware_plugins.so" to ""\n'}
+[108.715743] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.sh\n'}
+[108.736203] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.dsv\n'}
+[108.745515] (-) TimerEvent: {}
+[108.755657] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/include/gazebo_ros2_control\n'}
+[108.756897] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp\n'}
+[108.757302] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system.hpp\n'}
+[108.757555] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_ros2_control_plugin.hpp\n'}
+[108.757804] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/gazebo_hardware_plugins.xml\n'}
+[108.776030] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control\n'}
+[108.780468] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control\n'}
+[108.781040] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.sh\n'}
+[108.845696] (-) TimerEvent: {}
+[108.900693] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.dsv\n'}
+[108.944567] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.sh\n'}
+[108.945159] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.dsv\n'}
+[108.945701] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.bash\n'}
+[108.945983] (-) TimerEvent: {}
+[108.948939] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.sh\n'}
+[108.950351] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.zsh\n'}
+[108.950735] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.dsv\n'}
+[108.989359] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/package.dsv\n'}
+[108.990422] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/ament_index/resource_index/packages/gazebo_ros2_control\n'}
+[108.991015] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/ament_index/resource_index/gazebo_ros2_control__pluginlib__plugin/gazebo_ros2_control\n'}
+[108.992407] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[109.012931] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[109.013535] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[109.015334] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig.cmake\n'}
+[109.015810] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig-version.cmake\n'}
+[109.016185] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/package.xml\n'}
+[109.019494] (gazebo_ros2_control) CommandEnded: {'returncode': 0}
+[109.046284] (-) TimerEvent: {}
+[109.146837] (-) TimerEvent: {}
+[109.150871] (gazebo_ros2_control) JobEnded: {'identifier': 'gazebo_ros2_control', 'rc': 0}
+[109.152455] (-) EventReactorShutdown: {}

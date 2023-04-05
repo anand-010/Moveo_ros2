@@ -1,7 +1,7 @@
 import os
 from ament_index_python.packages import get_package_share_directory
 from launch import LaunchDescription
-from launch.actions import ExecuteProcess, IncludeLaunchDescription
+from launch.actions import ExecuteProcess, IncludeLaunchDescription, RegisterEventHandler
 from launch.event_handlers import ( OnProcessStart, OnProcessExit )
 from launch. launch_description_sources import PythonLaunchDescriptionSource
 from launch_ros.actions import Node
@@ -70,27 +70,54 @@ def generate_launch_description():
     )
 
     spawn_entity = Node( package='gazebo_ros', executable='spawn_entity.py',
-        arguments=['-topic', '/robot_description', '-entity', 'moveo_arm'],
+        arguments=['-topic', 'robot_description', '-entity', 'moveo_arm'],
         output='screen')
         # Create the Gazebo node
-    # Gazebo launch
-    # gazebo = IncludeLaunchDescription(
-    #     PythonLaunchDescriptionSource(
-    #         os.path.join(get_package_share_directory('gazebo_ros'), 'launch', 'gazebo.launch.py'),
-    #     )
+    gazebo = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource([os.path.join(
+            get_package_share_directory('gazebo_ros'), 'launch'), '/gazebo.launch.py']),
+    )
+    # gazebo = ExecuteProcess(
+    #     cmd=["gazebo", "--verbose", "-s", "libgazebo_ros_factory.so"], output="screen"
     # )
-    # gazebo = IncludeLaunchDescription(
-    #     PythonLaunchDescriptionSource([os.path.join(
-    #         get_package_share_directory('gazebo_ros'), 'launch'), '/gazebo.launch.py']),
-    # )
-    gazebo = ExecuteProcess(
-        cmd=["gazebo", "--verbose", "-s", "libgazebo_ros_factory.so"], output="screen"
+    load_arm_controller = ExecuteProcess(
+        cmd=['ros2', 'control', 'load_controller', '--set-state', 'active',
+             'arm_controller'],
+        output='screen'
+    )
+    load_gripper_controller = ExecuteProcess(
+        cmd=['ros2', 'control', 'load_controller', '--set-state', 'active',
+             'gripper_controller'],
+        output='screen'
+    )
+    load_joint_state_controller = ExecuteProcess(
+        cmd=['ros2', 'control', 'load_controller', '--set-state', 'active',
+             'joint_state_broadcaster'],
+        output='screen'
     )
     return LaunchDescription([
-        static_tf_node,
+        RegisterEventHandler(
+            event_handler=OnProcessExit(
+                target_action=spawn_entity,
+                on_exit=[load_joint_state_controller],
+            )
+        ),
+        RegisterEventHandler(
+            event_handler=OnProcessExit(
+                target_action=load_joint_state_controller,
+                on_exit=[load_arm_controller],
+            )
+        ),
+        RegisterEventHandler(
+            event_handler=OnProcessExit(
+                target_action=load_arm_controller,
+                on_exit=[load_gripper_controller],
+            )
+        ),
+        # static_tf_node,
+        move_group_node,
+        rviz_node,
+        gazebo,
         robot_state_publisher,
         spawn_entity,
-        gazebo,
-        move_group_node,
-        rviz_node
     ])

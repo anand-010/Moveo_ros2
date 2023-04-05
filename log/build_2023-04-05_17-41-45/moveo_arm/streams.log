@@ -1,0 +1,55 @@
+[0.619s] Invoking command in '/home/anand/Desktop/moveo_ros2/build/moveo_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/anand/Desktop/moveo_ros2/build/moveo_arm -- -j4 -l4
+[4.589s] Invoked command in '/home/anand/Desktop/moveo_ros2/build/moveo_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/anand/Desktop/moveo_ros2/build/moveo_arm -- -j4 -l4
+[4.635s] Invoking command in '/home/anand/Desktop/moveo_ros2/build/moveo_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/anand/Desktop/moveo_ros2/build/moveo_arm
+[4.799s] -- Install configuration: ""
+[4.871s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/launch
+[4.953s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/launch/moveit_gazebo.launch.py
+[4.953s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/launch/moveit.launch.py
+[4.954s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/launch/start_moveit.launch.py
+[4.954s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/urdf
+[5.020s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/urdf/moveo_gazebo.xacro
+[5.021s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/urdf/moveo.urdf.xacro
+[5.021s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/urdf/moveo.urdf
+[5.022s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes
+[5.143s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Gripper_Servo_Gear.STL
+[5.212s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/link5.mlp
+[5.213s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Pivot_Arm_Gripper_Idol.STL
+[5.213s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Gripper_Idol_Gear_col.STL
+[5.214s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Tip_Gripper_Servo.STL
+[5.214s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Link_2_edited.STL
+[5.215s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Link_3_col.STL
+[5.215s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Tip_Gripper_Idol.STL
+[5.216s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Link_5_col.STL
+[5.216s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/base_link.STL
+[5.216s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Pivot_Arm_Gripper_Servo_col.STL
+[5.217s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Gripper_Idol_Gear.STL
+[5.217s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Pivot_Arm_Gripper_Servo.STL
+[5.218s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Link_5_edited.STL
+[5.218s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Link_1_edited.STL
+[5.219s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Link_4_edited.STL
+[5.219s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Gripper_Servo_Gear_col.STL
+[5.220s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/link5col.mlp
+[5.220s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Link_1_col.STL
+[5.221s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Link_2_col.STL
+[5.221s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Tip_Gripper_Idol_col.STL
+[5.221s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Pivot_Arm_Gripper_Idol_col.STL
+[5.221s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Tip_Gripper_Servo_col.STL
+[5.222s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Link_4_col.STL
+[5.222s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/Link_3_edited.STL
+[5.223s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/meshes/base_link_col.STL
+[5.223s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/ament_index/resource_index/package_run_dependencies/moveo_arm
+[5.276s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/ament_index/resource_index/parent_prefix_path/moveo_arm
+[5.353s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/environment/ament_prefix_path.sh
+[5.353s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/environment/ament_prefix_path.dsv
+[5.354s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/environment/path.sh
+[5.354s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/environment/path.dsv
+[5.355s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/local_setup.bash
+[5.355s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/local_setup.sh
+[5.356s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/local_setup.zsh
+[5.356s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/local_setup.dsv
+[5.356s] -- Installing: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/package.dsv
+[5.395s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/ament_index/resource_index/packages/moveo_arm
+[5.395s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/cmake/moveo_armConfig.cmake
+[5.396s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/cmake/moveo_armConfig-version.cmake
+[5.396s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/package.xml
+[5.401s] Invoked command in '/home/anand/Desktop/moveo_ros2/build/moveo_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/anand/Desktop/moveo_ros2/build/moveo_arm

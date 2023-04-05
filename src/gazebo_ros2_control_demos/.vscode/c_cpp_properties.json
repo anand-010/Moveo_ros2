@@ -1,0 +1,23 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/anand/Desktop/moveo_ros2/src/gazebo_ros2_control/include/**",
+        "/home/anand/Desktop/moveo_ros2/src/moveo_arm/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

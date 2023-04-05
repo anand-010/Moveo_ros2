@@ -1,0 +1,50 @@
+[0.392s] Invoking command in '/home/anand/Desktop/moveo_ros2/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/anand/Desktop/moveo_ros2/build/gazebo_ros2_control -- -j4 -l4
+[12.090s] [ 25%] [32mBuilding CXX object CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o[0m
+[75.600s] [ 50%] [32m[1mLinking CXX shared library libgazebo_ros2_control.so[0m
+[82.341s] [ 50%] Built target gazebo_ros2_control
+[82.429s] [ 75%] [32mBuilding CXX object CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o[0m
+[99.566s] [01m[K/home/anand/Desktop/moveo_ros2/src/gazebo_ros2_control/src/gazebo_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type gazebo_ros2_control::GazeboSystem::perform_command_mode_switch(const std::vector<std::__cxx11::basic_string<char> >&, const std::vector<std::__cxx11::basic_string<char> >&)[m[K’:
+[99.567s] [01m[K/home/anand/Desktop/moveo_ros2/src/gazebo_ros2_control/src/gazebo_system.cpp:515:77:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr gazebo_ros2_control::SafeEnum<gazebo_ros2_control::GazeboSystemInterface::ControlMethod_>& gazebo_ros2_control::SafeEnum<gazebo_ros2_control::GazeboSystemInterface::ControlMethod_>::operator=(const gazebo_ros2_control::SafeEnum<gazebo_ros2_control::GazeboSystemInterface::ControlMethod_>&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[99.567s]   515 |       this->dataPtr->joint_control_methods_[mimic_joint.mimicked_joint_index[01;35m[K][m[K;
+[99.567s]       |                                                                             [01;35m[K^[m[K
+[99.567s] In file included from [01m[K/home/anand/Desktop/moveo_ros2/src/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system.hpp:25[m[K,
+[99.568s]                  from [01m[K/home/anand/Desktop/moveo_ros2/src/gazebo_ros2_control/src/gazebo_system.cpp:22[m[K:
+[99.568s] [01m[K/home/anand/Desktop/moveo_ros2/src/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp:43:3:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kgazebo_ros2_control::SafeEnum<gazebo_ros2_control::GazeboSystemInterface::ControlMethod_>[m[K’ has user-provided ‘[01m[Kgazebo_ros2_control::SafeEnum<ENUM, UNDERLYING>::SafeEnum(const gazebo_ros2_control::SafeEnum<ENUM, UNDERLYING>&) [with ENUM = gazebo_ros2_control::GazeboSystemInterface::ControlMethod_; UNDERLYING = unsigned int][m[K’
+[99.568s]    43 |   [01;36m[KSafeEnum[m[K(const SafeEnum & original)
+[99.568s]       |   [01;36m[K^~~~~~~~[m[K
+[106.666s] [100%] [32m[1mLinking CXX shared library libgazebo_hardware_plugins.so[0m
+[108.015s] [100%] Built target gazebo_hardware_plugins
+[108.035s] Invoked command in '/home/anand/Desktop/moveo_ros2/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/anand/Desktop/moveo_ros2/build/gazebo_ros2_control -- -j4 -l4
+[108.086s] Invoking command in '/home/anand/Desktop/moveo_ros2/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/anand/Desktop/moveo_ros2/build/gazebo_ros2_control
+[108.158s] -- Install configuration: ""
+[108.159s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/lib/libgazebo_ros2_control.so
+[108.182s] -- Set runtime path of "/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/lib/libgazebo_ros2_control.so" to ""
+[108.182s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/lib/libgazebo_hardware_plugins.so
+[108.188s] -- Set runtime path of "/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/lib/libgazebo_hardware_plugins.so" to ""
+[108.188s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.sh
+[108.209s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.dsv
+[108.229s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/include/gazebo_ros2_control
+[108.230s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp
+[108.230s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system.hpp
+[108.230s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_ros2_control_plugin.hpp
+[108.231s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/gazebo_hardware_plugins.xml
+[108.249s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control
+[108.253s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control
+[108.254s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.sh
+[108.374s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.dsv
+[108.417s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.sh
+[108.418s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.dsv
+[108.418s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.bash
+[108.422s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.sh
+[108.423s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.zsh
+[108.423s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.dsv
+[108.462s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/package.dsv
+[108.463s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/ament_index/resource_index/packages/gazebo_ros2_control
+[108.464s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/ament_index/resource_index/gazebo_ros2_control__pluginlib__plugin/gazebo_ros2_control
+[108.465s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[108.486s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[108.486s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_libraries-extras.cmake
+[108.488s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig.cmake
+[108.489s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig-version.cmake
+[108.489s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/package.xml
+[108.500s] Invoked command in '/home/anand/Desktop/moveo_ros2/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/anand/Desktop/moveo_ros2/build/gazebo_ros2_control

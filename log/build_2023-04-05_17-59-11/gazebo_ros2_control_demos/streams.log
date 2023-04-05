@@ -1,0 +1,121 @@
+[0.057s] Invoking command in '/home/anand/Desktop/moveo_ros2/build/gazebo_ros2_control_demos': AMENT_PREFIX_PATH=/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control:/opt/ros/humble LD_LIBRARY_PATH=/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/anand/Desktop/moveo_ros2/src/gazebo_ros2_control_demos -DCMAKE_INSTALL_PREFIX=/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos
+[3.727s] -- The C compiler identification is GNU 11.3.0
+[4.492s] -- The CXX compiler identification is GNU 11.3.0
+[5.238s] -- Detecting C compiler ABI info
+[5.556s] -- Detecting C compiler ABI info - done
+[5.571s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.676s] -- Detecting C compile features
+[5.682s] -- Detecting C compile features - done
+[5.884s] -- Detecting CXX compiler ABI info
+[6.502s] -- Detecting CXX compiler ABI info - done
+[6.530s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.530s] -- Detecting CXX compile features
+[6.532s] -- Detecting CXX compile features - done
+[6.749s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[8.206s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[10.511s] -- Found control_msgs: 4.1.1 (/opt/ros/humble/share/control_msgs/cmake)
+[11.796s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[12.005s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[12.256s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[12.774s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[13.206s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[16.064s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[17.041s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[17.157s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[18.070s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[18.531s] -- Looking for pthread.h
+[18.736s] -- Looking for pthread.h - found
+[18.736s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[19.146s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[19.148s] -- Found Threads: TRUE  
+[20.538s] -- Found rclcpp_action: 16.0.3 (/opt/ros/humble/share/rclcpp_action/cmake)
+[20.910s] -- Found ament_cmake_gtest: 1.3.3 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[20.945s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[22.311s] -- Added test 'copyright' to check source files copyright and LICENSE
+[22.329s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[22.330s] -- Configured cppcheck include dirs: 
+[22.331s] -- Configured cppcheck exclude dirs and/or files: 
+[22.415s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[22.415s] -- Configured cpplint exclude dirs and/or files: 
+[22.463s] -- Added test 'flake8' to check Python code syntax and style conventions
+[22.508s] -- Added test 'lint_cmake' to check CMake code style
+[22.574s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[22.649s] -- Added test 'uncrustify' to check C / C++ code style
+[22.649s] -- Configured uncrustify additional arguments: 
+[22.737s] -- Added test 'xmllint' to check XML markup files
+[22.860s] -- Configuring done
+[22.942s] -- Generating done
+[22.947s] -- Build files have been written to: /home/anand/Desktop/moveo_ros2/build/gazebo_ros2_control_demos
+[22.968s] Invoked command in '/home/anand/Desktop/moveo_ros2/build/gazebo_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control:/opt/ros/humble LD_LIBRARY_PATH=/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/anand/Desktop/moveo_ros2/src/gazebo_ros2_control_demos -DCMAKE_INSTALL_PREFIX=/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos
+[22.971s] Invoking command in '/home/anand/Desktop/moveo_ros2/build/gazebo_ros2_control_demos': AMENT_PREFIX_PATH=/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control:/opt/ros/humble LD_LIBRARY_PATH=/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/anand/Desktop/moveo_ros2/build/gazebo_ros2_control_demos -- -j4 -l4
+[23.055s] [  8%] [32mBuilding CXX object CMakeFiles/example_position.dir/examples/example_position.cpp.o[0m
+[34.159s] [ 16%] [32m[1mLinking CXX executable example_position[0m
+[34.659s] [ 16%] Built target example_position
+[34.688s] [ 25%] [32mBuilding CXX object CMakeFiles/example_gripper.dir/examples/example_gripper.cpp.o[0m
+[42.636s] [ 33%] [32m[1mLinking CXX executable example_gripper[0m
+[42.948s] [ 33%] Built target example_gripper
+[42.982s] [ 41%] [32mBuilding CXX object CMakeFiles/example_diff_drive.dir/examples/example_diff_drive.cpp.o[0m
+[50.685s] [ 50%] [32m[1mLinking CXX executable example_diff_drive[0m
+[51.008s] [ 50%] Built target example_diff_drive
+[51.037s] [ 58%] [32mBuilding CXX object CMakeFiles/example_tricycle_drive.dir/examples/example_tricycle_drive.cpp.o[0m
+[58.445s] [ 66%] [32m[1mLinking CXX executable example_tricycle_drive[0m
+[58.774s] [ 66%] Built target example_tricycle_drive
+[58.803s] [ 75%] [32mBuilding CXX object CMakeFiles/example_effort.dir/examples/example_effort.cpp.o[0m
+[66.366s] [ 83%] [32m[1mLinking CXX executable example_effort[0m
+[66.686s] [ 83%] Built target example_effort
+[66.715s] [ 91%] [32mBuilding CXX object CMakeFiles/example_velocity.dir/examples/example_velocity.cpp.o[0m
+[74.255s] [100%] [32m[1mLinking CXX executable example_velocity[0m
+[74.579s] [100%] Built target example_velocity
+[74.600s] Invoked command in '/home/anand/Desktop/moveo_ros2/build/gazebo_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control:/opt/ros/humble LD_LIBRARY_PATH=/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/anand/Desktop/moveo_ros2/build/gazebo_ros2_control_demos -- -j4 -l4
+[74.667s] Invoking command in '/home/anand/Desktop/moveo_ros2/build/gazebo_ros2_control_demos': AMENT_PREFIX_PATH=/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control:/opt/ros/humble LD_LIBRARY_PATH=/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/anand/Desktop/moveo_ros2/build/gazebo_ros2_control_demos
+[74.687s] -- Install configuration: ""
+[74.688s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch
+[74.688s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/gripper_mimic_joint_example.launch.py
+[74.688s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_velocity.launch.py
+[74.689s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/diff_drive.launch.py
+[74.690s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_effort.launch.py
+[74.690s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_position.launch.py
+[74.690s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/tricycle_drive.launch.py
+[74.690s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config
+[74.691s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cartpole_controller.yaml
+[74.691s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/tricycle_drive_controller.yaml
+[74.691s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cartpole_controller_velocity.yaml
+[74.691s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/config.rviz
+[74.692s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/diff_drive_controller.yaml
+[74.692s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cartpole_controller_effort.yaml
+[74.692s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/gripper_controller.yaml
+[74.693s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf
+[74.693s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_tricycle_drive.xacro.urdf
+[74.693s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_effort.xacro.urdf
+[74.693s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_position.xacro.urdf
+[74.693s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_velocity.xacro.urdf
+[74.694s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_diff_drive.xacro.urdf
+[74.694s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_gripper_mimic_joint.xacro.urdf
+[74.694s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_position
+[74.694s] -- Set runtime path of "/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_position" to ""
+[74.695s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_velocity
+[74.695s] -- Set runtime path of "/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_velocity" to ""
+[74.695s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_effort
+[74.697s] -- Set runtime path of "/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_effort" to ""
+[74.698s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_diff_drive
+[74.701s] -- Set runtime path of "/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_diff_drive" to ""
+[74.701s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_tricycle_drive
+[74.704s] -- Set runtime path of "/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_tricycle_drive" to ""
+[74.704s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_gripper
+[74.707s] -- Set runtime path of "/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_gripper" to ""
+[74.707s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control_demos
+[74.708s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control_demos
+[74.708s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/ament_prefix_path.sh
+[74.708s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/ament_prefix_path.dsv
+[74.708s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/path.sh
+[74.709s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/path.dsv
+[74.709s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.bash
+[74.709s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.sh
+[74.709s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.zsh
+[74.710s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.dsv
+[74.710s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.dsv
+[74.710s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/share/ament_index/resource_index/packages/gazebo_ros2_control_demos
+[74.711s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/cmake/gazebo_ros2_control_demosConfig.cmake
+[74.711s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/cmake/gazebo_ros2_control_demosConfig-version.cmake
+[74.711s] -- Installing: /home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.xml
+[74.719s] Invoked command in '/home/anand/Desktop/moveo_ros2/build/gazebo_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control:/opt/ros/humble LD_LIBRARY_PATH=/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/anand/Desktop/moveo_ros2/build/gazebo_ros2_control_demos

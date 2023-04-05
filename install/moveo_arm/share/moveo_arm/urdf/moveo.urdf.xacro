@@ -16,5 +16,5 @@
             <parameters>$(find panda_robot_bringup)/config/controller_configuration.yaml</parameters>
         </plugin>
     </gazebo> -->
-    <xacro:include filename="$(find moveo_arm)/urdf/moveo_gazebo.xacro" />
+    <!-- <xacro:include filename="$(find moveo_arm)/urdf/moveo_gazebo.xacro" /> -->
 </robot>
