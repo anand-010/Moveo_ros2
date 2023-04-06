@@ -1,0 +1,74 @@
+[35m[1mConsolidate compiler generated dependencies of target diffdrive_arduino[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/diffdrive_arduino.cpp.o[0m
+[01m[K/home/anand/Desktop/moveo_ros2/src/diffdrive_arduino/src/diffdrive_arduino.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type diffdrive_arduino::DiffDriveArduino::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/anand/Desktop/moveo_ros2/src/diffdrive_arduino/src/diffdrive_arduino.cpp:118:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KdeltaSeconds[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  118 |   double [01;35m[KdeltaSeconds[m[K = diff.count();
+      |          [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/anand/Desktop/moveo_ros2/src/diffdrive_arduino/src/diffdrive_arduino.cpp:126:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kjoint_1_prev_pos[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  126 |   int [01;35m[Kjoint_1_prev_pos[m[K = Joint_1.pos;
+      |       [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/anand/Desktop/moveo_ros2/src/diffdrive_arduino/src/diffdrive_arduino.cpp:127:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kjoint_2_prev_pos[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  127 |   int [01;35m[Kjoint_2_prev_pos[m[K = Joint_2.pos;
+      |       [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/anand/Desktop/moveo_ros2/src/diffdrive_arduino/src/diffdrive_arduino.cpp:128:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kjoint_3_prev_pos[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  128 |   int [01;35m[Kjoint_3_prev_pos[m[K = Joint_3.pos;
+      |       [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/anand/Desktop/moveo_ros2/src/diffdrive_arduino/src/diffdrive_arduino.cpp:129:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kjoint_4_prev_pos[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  129 |   int [01;35m[Kjoint_4_prev_pos[m[K = Joint_4.pos;
+      |       [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/anand/Desktop/moveo_ros2/src/diffdrive_arduino/src/diffdrive_arduino.cpp:130:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kjoint_5_prev_pos[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  130 |   int [01;35m[Kjoint_5_prev_pos[m[K = Joint_5.pos;
+      |       [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/anand/Desktop/moveo_ros2/src/diffdrive_arduino/src/diffdrive_arduino.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type diffdrive_arduino::DiffDriveArduino::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/anand/Desktop/moveo_ros2/src/diffdrive_arduino/src/diffdrive_arduino.cpp:154:60:[m[K [01;35m[Kwarning: [m[Kembedded ‘[01m[K\0[m[K’ in format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-contains-nul-Wformat-contains-nul]8;;[m[K]
+  154 |   snprintf(log_buffer, 100, "write %lf, %lf, %lf, %lf, %lf [01;35m[K\0[m[K", Joint_1.pos, Joint_2.pos, Joint_3.pos, Joint_4.pos,Joint_5.pos);
+      |                                                            [01;35m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/anand/Desktop/moveo_ros2/src/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino.h:5[m[K,
+                 from [01m[K/home/anand/Desktop/moveo_ros2/src/diffdrive_arduino/src/diffdrive_arduino.cpp:1[m[K:
+[01m[K/home/anand/Desktop/moveo_ros2/src/diffdrive_arduino/src/diffdrive_arduino.cpp:155:24:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-security-Wformat-security]8;;[m[K]
+  155 |   RCLCPP_INFO(logger_, [01;35m[Klog_buffer[m[K);
+      |                        [01;35m[K^~~~~~~~~~[m[K
+[ 50%] [32m[1mLinking CXX shared library libdiffdrive_arduino.so[0m
+[100%] Built target diffdrive_arduino
+-- Install configuration: ""
+-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/share/diffdrive_arduino/robot_hardware.xml
+-- Installing: /home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/lib/libdiffdrive_arduino.so
+-- Set runtime path of "/home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/lib/libdiffdrive_arduino.so" to ""
+-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/share/diffdrive_arduino/controllers
+-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/share/diffdrive_arduino/controllers/robot_controller_example.yaml
+-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/share/diffdrive_arduino
+-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/share/diffdrive_arduino/test_robot.launch.py
+-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/share/diffdrive_arduino/fake_robot.launch.py
+-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/share/diffdrive_arduino/__pycache__
+-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/share/diffdrive_arduino/__pycache__/test_robot.launch.cpython-310.pyc
+-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.sh
+-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.dsv
+-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/share/ament_index/resource_index/package_run_dependencies/diffdrive_arduino
+-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/share/ament_index/resource_index/parent_prefix_path/diffdrive_arduino
+-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.sh
+-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.sh
+-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.dsv
+-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.bash
+-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.sh
+-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.zsh
+-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.dsv
+-- Installing: /home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv
+-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/share/ament_index/resource_index/packages/diffdrive_arduino
+-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_arduino
+-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig.cmake
+-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig-version.cmake
+-- Up-to-date: /home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/share/diffdrive_arduino/package.xml

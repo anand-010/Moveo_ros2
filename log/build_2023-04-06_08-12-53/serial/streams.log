@@ -1,0 +1,33 @@
+[0.261s] Invoking command in '/home/anand/Desktop/moveo_ros2/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/anand/Desktop/moveo_ros2/build/serial -- -j4 -l4
+[4.682s] [ 28%] Built target serial
+[4.909s] [ 42%] Built target gtest_main
+[5.059s] [ 57%] Built target serial_example
+[5.517s] [ 71%] Built target gtest
+[5.562s] [ 85%] Built target serial-test
+[5.725s] [100%] Built target serial-test-timer
+[5.830s] Invoked command in '/home/anand/Desktop/moveo_ros2/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/anand/Desktop/moveo_ros2/build/serial -- -j4 -l4
+[5.892s] Invoking command in '/home/anand/Desktop/moveo_ros2/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/anand/Desktop/moveo_ros2/build/serial
+[5.903s] -- Install configuration: ""
+[5.904s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/serial/lib/libserial.a
+[5.904s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/serial/include/serial/serial.h
+[5.904s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/serial/include/serial/v8stdint.h
+[5.904s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/serial/share/serial/environment/library_path.sh
+[5.904s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/serial/share/serial/environment/library_path.dsv
+[5.905s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[5.905s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[5.905s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/serial/share/serial/environment/ament_prefix_path.sh
+[5.905s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/serial/share/serial/environment/ament_prefix_path.dsv
+[5.905s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/serial/share/serial/environment/path.sh
+[5.905s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/serial/share/serial/environment/path.dsv
+[5.906s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/serial/share/serial/local_setup.bash
+[5.906s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/serial/share/serial/local_setup.sh
+[5.906s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/serial/share/serial/local_setup.zsh
+[5.906s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/serial/share/serial/local_setup.dsv
+[5.906s] -- Installing: /home/anand/Desktop/moveo_ros2/install/serial/share/serial/package.dsv
+[5.964s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/serial/share/ament_index/resource_index/packages/serial
+[5.964s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.964s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[5.965s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/serial/share/serial/cmake/serialConfig.cmake
+[5.965s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/serial/share/serial/cmake/serialConfig-version.cmake
+[5.965s] -- Up-to-date: /home/anand/Desktop/moveo_ros2/install/serial/share/serial/package.xml
+[5.980s] Invoked command in '/home/anand/Desktop/moveo_ros2/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/anand/Desktop/moveo_ros2/build/serial

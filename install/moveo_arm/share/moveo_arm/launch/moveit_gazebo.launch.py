@@ -95,6 +95,18 @@ def generate_launch_description():
              'joint_state_broadcaster'],
         output='screen'
     )
+    joint_state_publisher = Node(
+        name='joint_state_publisher',
+        package='joint_state_publisher',
+        executable='joint_state_publisher',
+        parameters=[{'use_gui': True}],
+    )
+    joit_state_publisher_gui = Node(
+        package="joint_state_publisher_gui",
+        executable="joint_state_publisher_gui",
+        name="joint_state_publisher_gui",
+        output="screen",)
+    
     return LaunchDescription([
         RegisterEventHandler(
             event_handler=OnProcessExit(
@@ -117,7 +129,9 @@ def generate_launch_description():
         # static_tf_node,
         move_group_node,
         rviz_node,
-        gazebo,
+        # gazebo,
         robot_state_publisher,
-        spawn_entity,
+        # spawn_entity,
+        joint_state_publisher,
+        # joit_state_publisher_gui
     ])

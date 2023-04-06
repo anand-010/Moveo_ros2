@@ -1,0 +1,473 @@
+[39.759s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[39.759s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f35bb2a32e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f35bbb244f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f35bbb244f0>>)
+[41.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[41.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[41.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[41.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[41.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[41.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[41.218s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/anand/Desktop/moveo_ros2'
+[41.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[41.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[41.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[41.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[41.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[41.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[41.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[41.220s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[41.220s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[41.553s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[41.553s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[41.553s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[41.553s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[41.553s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[41.610s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[41.611s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[41.611s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[41.703s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[41.704s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[41.704s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[41.704s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[41.705s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[41.705s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[41.705s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[41.706s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[41.706s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[41.706s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[41.706s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[41.706s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[41.707s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[41.707s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[41.707s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[41.707s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[41.707s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[41.708s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[41.708s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[41.708s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[41.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['ignore', 'ignore_ament_install']
+[41.709s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ignore'
+[41.709s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ignore_ament_install'
+[41.709s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['colcon_pkg']
+[41.709s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'colcon_pkg'
+[41.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['colcon_meta']
+[41.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'colcon_meta'
+[41.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['ros']
+[41.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ros'
+[41.943s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diffdrive_arduino' with type 'ros.ament_cmake' and name 'diffdrive_arduino'
+[41.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[41.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extension 'ignore'
+[41.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extension 'ignore_ament_install'
+[41.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extensions ['colcon_pkg']
+[41.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extension 'colcon_pkg'
+[41.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extensions ['colcon_meta']
+[41.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extension 'colcon_meta'
+[41.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extensions ['ros']
+[41.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extension 'ros'
+[42.033s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_ros2_control' with type 'ros.ament_cmake' and name 'gazebo_ros2_control'
+[42.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control_demos) by extensions ['ignore', 'ignore_ament_install']
+[42.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control_demos) by extension 'ignore'
+[42.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control_demos) by extension 'ignore_ament_install'
+[42.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control_demos) by extensions ['colcon_pkg']
+[42.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control_demos) by extension 'colcon_pkg'
+[42.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control_demos) by extensions ['colcon_meta']
+[42.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control_demos) by extension 'colcon_meta'
+[42.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control_demos) by extensions ['ros']
+[42.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control_demos) by extension 'ros'
+[42.134s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_ros2_control_demos' with type 'ros.ament_cmake' and name 'gazebo_ros2_control_demos'
+[42.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_arm) by extensions ['ignore', 'ignore_ament_install']
+[42.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_arm) by extension 'ignore'
+[42.135s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_arm) by extension 'ignore_ament_install'
+[42.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_arm) by extensions ['colcon_pkg']
+[42.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_arm) by extension 'colcon_pkg'
+[42.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_arm) by extensions ['colcon_meta']
+[42.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_arm) by extension 'colcon_meta'
+[42.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_arm) by extensions ['ros']
+[42.136s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_arm) by extension 'ros'
+[42.151s] DEBUG:colcon.colcon_core.package_identification:Package 'src/moveo_arm' with type 'ros.ament_cmake' and name 'moveo_arm'
+[42.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[42.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_moveit_config) by extension 'ignore'
+[42.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_moveit_config) by extension 'ignore_ament_install'
+[42.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_moveit_config) by extensions ['colcon_pkg']
+[42.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_moveit_config) by extension 'colcon_pkg'
+[42.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_moveit_config) by extensions ['colcon_meta']
+[42.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_moveit_config) by extension 'colcon_meta'
+[42.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_moveit_config) by extensions ['ros']
+[42.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/moveo_moveit_config) by extension 'ros'
+[42.170s] DEBUG:colcon.colcon_core.package_identification:Package 'src/moveo_moveit_config' with type 'ros.ament_cmake' and name 'moveo_moveit_config'
+[42.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ignore', 'ignore_ament_install']
+[42.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore'
+[42.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore_ament_install'
+[42.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_pkg']
+[42.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_pkg'
+[42.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_meta']
+[42.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_meta'
+[42.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ros']
+[42.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ros'
+[42.233s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial' with type 'ros.ament_cmake' and name 'serial'
+[42.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[42.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[42.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[42.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[42.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[43.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[43.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[43.237s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/anand/Desktop/moveo_ros2/install
+[43.341s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 392 installed packages in /opt/ros/humble
+[43.353s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[63.910s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_args' from command line to 'None'
+[63.910s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_target' from command line to 'None'
+[63.910s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[63.910s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_clean_cache' from command line to 'False'
+[63.910s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_clean_first' from command line to 'False'
+[63.911s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_force_configure' from command line to 'False'
+[63.911s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'ament_cmake_args' from command line to 'None'
+[63.911s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'catkin_cmake_args' from command line to 'None'
+[63.911s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[63.911s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_ros2_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/anand/Desktop/moveo_ros2/build/gazebo_ros2_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control', 'merge_install': False, 'path': '/home/anand/Desktop/moveo_ros2/src/gazebo_ros2_control', 'symlink_install': False, 'test_result_base': None}
+[63.913s] Level 5:colcon.colcon_core.verb:set package 'moveo_arm' build argument 'cmake_args' from command line to 'None'
+[63.913s] Level 5:colcon.colcon_core.verb:set package 'moveo_arm' build argument 'cmake_target' from command line to 'None'
+[63.913s] Level 5:colcon.colcon_core.verb:set package 'moveo_arm' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[63.913s] Level 5:colcon.colcon_core.verb:set package 'moveo_arm' build argument 'cmake_clean_cache' from command line to 'False'
+[63.913s] Level 5:colcon.colcon_core.verb:set package 'moveo_arm' build argument 'cmake_clean_first' from command line to 'False'
+[63.913s] Level 5:colcon.colcon_core.verb:set package 'moveo_arm' build argument 'cmake_force_configure' from command line to 'False'
+[63.913s] Level 5:colcon.colcon_core.verb:set package 'moveo_arm' build argument 'ament_cmake_args' from command line to 'None'
+[63.913s] Level 5:colcon.colcon_core.verb:set package 'moveo_arm' build argument 'catkin_cmake_args' from command line to 'None'
+[63.913s] Level 5:colcon.colcon_core.verb:set package 'moveo_arm' build argument 'catkin_skip_building_tests' from command line to 'False'
+[63.914s] DEBUG:colcon.colcon_core.verb:Building package 'moveo_arm' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/anand/Desktop/moveo_ros2/build/moveo_arm', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/anand/Desktop/moveo_ros2/install/moveo_arm', 'merge_install': False, 'path': '/home/anand/Desktop/moveo_ros2/src/moveo_arm', 'symlink_install': False, 'test_result_base': None}
+[63.918s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_args' from command line to 'None'
+[63.918s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target' from command line to 'None'
+[63.918s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[63.918s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_cache' from command line to 'False'
+[63.918s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_first' from command line to 'False'
+[63.918s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_force_configure' from command line to 'False'
+[63.918s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'ament_cmake_args' from command line to 'None'
+[63.918s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_cmake_args' from command line to 'None'
+[63.918s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[63.919s] DEBUG:colcon.colcon_core.verb:Building package 'serial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/anand/Desktop/moveo_ros2/build/serial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/anand/Desktop/moveo_ros2/install/serial', 'merge_install': False, 'path': '/home/anand/Desktop/moveo_ros2/src/serial', 'symlink_install': False, 'test_result_base': None}
+[63.922s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_args' from command line to 'None'
+[63.922s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target' from command line to 'None'
+[63.922s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[63.922s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_cache' from command line to 'False'
+[63.923s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_first' from command line to 'False'
+[63.923s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_force_configure' from command line to 'False'
+[63.923s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'ament_cmake_args' from command line to 'None'
+[63.923s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_cmake_args' from command line to 'None'
+[63.923s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_skip_building_tests' from command line to 'False'
+[63.923s] DEBUG:colcon.colcon_core.verb:Building package 'diffdrive_arduino' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/anand/Desktop/moveo_ros2/build/diffdrive_arduino', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/anand/Desktop/moveo_ros2/install/diffdrive_arduino', 'merge_install': False, 'path': '/home/anand/Desktop/moveo_ros2/src/diffdrive_arduino', 'symlink_install': False, 'test_result_base': None}
+[63.925s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'cmake_args' from command line to 'None'
+[63.925s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'cmake_target' from command line to 'None'
+[63.925s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[63.925s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'cmake_clean_cache' from command line to 'False'
+[63.925s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'cmake_clean_first' from command line to 'False'
+[63.925s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'cmake_force_configure' from command line to 'False'
+[63.925s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'ament_cmake_args' from command line to 'None'
+[63.925s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'catkin_cmake_args' from command line to 'None'
+[63.925s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'catkin_skip_building_tests' from command line to 'False'
+[63.925s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_ros2_control_demos' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/anand/Desktop/moveo_ros2/build/gazebo_ros2_control_demos', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos', 'merge_install': False, 'path': '/home/anand/Desktop/moveo_ros2/src/gazebo_ros2_control_demos', 'symlink_install': False, 'test_result_base': None}
+[63.927s] Level 5:colcon.colcon_core.verb:set package 'moveo_moveit_config' build argument 'cmake_args' from command line to 'None'
+[63.927s] Level 5:colcon.colcon_core.verb:set package 'moveo_moveit_config' build argument 'cmake_target' from command line to 'None'
+[63.927s] Level 5:colcon.colcon_core.verb:set package 'moveo_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[63.927s] Level 5:colcon.colcon_core.verb:set package 'moveo_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[63.927s] Level 5:colcon.colcon_core.verb:set package 'moveo_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[63.927s] Level 5:colcon.colcon_core.verb:set package 'moveo_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[63.927s] Level 5:colcon.colcon_core.verb:set package 'moveo_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[63.927s] Level 5:colcon.colcon_core.verb:set package 'moveo_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[63.928s] Level 5:colcon.colcon_core.verb:set package 'moveo_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[63.928s] DEBUG:colcon.colcon_core.verb:Building package 'moveo_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/anand/Desktop/moveo_ros2/build/moveo_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/anand/Desktop/moveo_ros2/install/moveo_moveit_config', 'merge_install': False, 'path': '/home/anand/Desktop/moveo_ros2/src/moveo_moveit_config', 'symlink_install': False, 'test_result_base': None}
+[63.929s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[63.936s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[63.936s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/anand/Desktop/moveo_ros2/src/gazebo_ros2_control' with build type 'ament_cmake'
+[63.937s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/anand/Desktop/moveo_ros2/src/gazebo_ros2_control'
+[64.390s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[64.391s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[64.391s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[64.574s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/anand/Desktop/moveo_ros2/src/moveo_arm' with build type 'ament_cmake'
+[64.575s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/anand/Desktop/moveo_ros2/src/moveo_arm'
+[64.579s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[64.579s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[64.679s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/anand/Desktop/moveo_ros2/src/serial' with build type 'ament_cmake'
+[64.679s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/anand/Desktop/moveo_ros2/src/serial'
+[64.684s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[64.685s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[64.840s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/anand/Desktop/moveo_ros2/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/anand/Desktop/moveo_ros2/build/serial -- -j4 -l4
+[65.265s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/anand/Desktop/moveo_ros2/build/moveo_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/anand/Desktop/moveo_ros2/build/moveo_arm -- -j4 -l4
+[65.318s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/anand/Desktop/moveo_ros2/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/anand/Desktop/moveo_ros2/build/gazebo_ros2_control -- -j4 -l4
+[71.010s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/anand/Desktop/moveo_ros2/build/moveo_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/anand/Desktop/moveo_ros2/build/moveo_arm -- -j4 -l4
+[71.062s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/anand/Desktop/moveo_ros2/build/moveo_arm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/anand/Desktop/moveo_ros2/build/moveo_arm
+[71.290s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveo_arm)
+[71.294s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/anand/Desktop/moveo_ros2/build/moveo_arm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/anand/Desktop/moveo_ros2/build/moveo_arm
+[71.958s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/moveo_arm' for CMake module files
+[71.960s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/moveo_arm' for CMake config files
+[72.028s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveo_arm', 'cmake_prefix_path')
+[72.033s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/hook/cmake_prefix_path.ps1'
+[72.036s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/hook/cmake_prefix_path.dsv'
+[72.066s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/hook/cmake_prefix_path.sh'
+[72.068s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/moveo_arm/bin'
+[72.069s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/moveo_arm/lib/pkgconfig/moveo_arm.pc'
+[72.069s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/moveo_arm/lib/python3.10/site-packages'
+[72.070s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/moveo_arm/bin'
+[72.074s] INFO:colcon.colcon_core.shell:Creating package script '/home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/package.ps1'
+[72.077s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/package.dsv'
+[72.079s] INFO:colcon.colcon_core.shell:Creating package script '/home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/package.sh'
+[72.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/package.bash'
+[72.287s] INFO:colcon.colcon_core.shell:Creating package script '/home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/package.zsh'
+[72.382s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/anand/Desktop/moveo_ros2/install/moveo_arm/share/colcon-core/packages/moveo_arm)
+[72.418s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveo_arm)
+[72.422s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/moveo_arm' for CMake module files
+[72.424s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/moveo_arm' for CMake config files
+[72.424s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveo_arm', 'cmake_prefix_path')
+[72.427s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/hook/cmake_prefix_path.ps1'
+[72.428s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/hook/cmake_prefix_path.dsv'
+[72.428s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/hook/cmake_prefix_path.sh'
+[72.429s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/moveo_arm/bin'
+[72.429s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/moveo_arm/lib/pkgconfig/moveo_arm.pc'
+[72.430s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/moveo_arm/lib/python3.10/site-packages'
+[72.430s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/moveo_arm/bin'
+[72.433s] INFO:colcon.colcon_core.shell:Creating package script '/home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/package.ps1'
+[72.434s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/package.dsv'
+[72.435s] INFO:colcon.colcon_core.shell:Creating package script '/home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/package.sh'
+[72.436s] INFO:colcon.colcon_core.shell:Creating package script '/home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/package.bash'
+[72.436s] INFO:colcon.colcon_core.shell:Creating package script '/home/anand/Desktop/moveo_ros2/install/moveo_arm/share/moveo_arm/package.zsh'
+[72.437s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/anand/Desktop/moveo_ros2/install/moveo_arm/share/colcon-core/packages/moveo_arm)
+[72.438s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/anand/Desktop/moveo_ros2/src/moveo_moveit_config' with build type 'ament_cmake'
+[72.438s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/anand/Desktop/moveo_ros2/src/moveo_moveit_config'
+[72.441s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[72.441s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[72.579s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/anand/Desktop/moveo_ros2/build/moveo_moveit_config': CMAKE_PREFIX_PATH=/home/anand/Desktop/moveo_ros2/install/moveo_arm:/home/anand/Desktop/moveo_ros2/install/diffdrive_arduino:/home/anand/Desktop/moveo_ros2/install/serial:/home/anand/Desktop/moveo_ros2/install/moveo_moveit_config:/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos:/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control:/opt/ros/humble /usr/bin/cmake --build /home/anand/Desktop/moveo_ros2/build/moveo_moveit_config -- -j4 -l4
+[72.655s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/anand/Desktop/moveo_ros2/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/anand/Desktop/moveo_ros2/build/serial -- -j4 -l4
+[72.713s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/anand/Desktop/moveo_ros2/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/anand/Desktop/moveo_ros2/build/serial
+[72.761s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[72.767s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/serial' for CMake module files
+[72.768s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/anand/Desktop/moveo_ros2/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/anand/Desktop/moveo_ros2/build/serial
+[72.769s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/serial' for CMake config files
+[72.770s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[72.775s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anand/Desktop/moveo_ros2/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[72.776s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anand/Desktop/moveo_ros2/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[72.777s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anand/Desktop/moveo_ros2/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[72.778s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/serial/lib'
+[72.778s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/serial/bin'
+[72.778s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/serial/lib/pkgconfig/serial.pc'
+[72.779s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/serial/lib/python3.10/site-packages'
+[72.779s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/serial/bin'
+[72.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/anand/Desktop/moveo_ros2/install/serial/share/serial/package.ps1'
+[72.782s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/anand/Desktop/moveo_ros2/install/serial/share/serial/package.dsv'
+[72.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/anand/Desktop/moveo_ros2/install/serial/share/serial/package.sh'
+[72.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/anand/Desktop/moveo_ros2/install/serial/share/serial/package.bash'
+[72.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/anand/Desktop/moveo_ros2/install/serial/share/serial/package.zsh'
+[72.784s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/anand/Desktop/moveo_ros2/install/serial/share/colcon-core/packages/serial)
+[72.841s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[72.848s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/serial' for CMake module files
+[72.850s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/serial' for CMake config files
+[72.851s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[72.855s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anand/Desktop/moveo_ros2/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[72.856s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anand/Desktop/moveo_ros2/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[72.857s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anand/Desktop/moveo_ros2/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[72.859s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/serial/lib'
+[72.859s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/serial/bin'
+[72.859s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/serial/lib/pkgconfig/serial.pc'
+[72.860s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/serial/lib/python3.10/site-packages'
+[72.860s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/serial/bin'
+[72.863s] INFO:colcon.colcon_core.shell:Creating package script '/home/anand/Desktop/moveo_ros2/install/serial/share/serial/package.ps1'
+[72.865s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/anand/Desktop/moveo_ros2/install/serial/share/serial/package.dsv'
+[72.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/anand/Desktop/moveo_ros2/install/serial/share/serial/package.sh'
+[72.868s] INFO:colcon.colcon_core.shell:Creating package script '/home/anand/Desktop/moveo_ros2/install/serial/share/serial/package.bash'
+[72.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/anand/Desktop/moveo_ros2/install/serial/share/serial/package.zsh'
+[72.869s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/anand/Desktop/moveo_ros2/install/serial/share/colcon-core/packages/serial)
+[72.870s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/anand/Desktop/moveo_ros2/src/diffdrive_arduino' with build type 'ament_cmake'
+[72.871s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/anand/Desktop/moveo_ros2/src/diffdrive_arduino'
+[72.876s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[72.876s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[72.888s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/anand/Desktop/moveo_ros2/build/moveo_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/anand/Desktop/moveo_ros2/install/moveo_arm:/home/anand/Desktop/moveo_ros2/install/diffdrive_arduino:/home/anand/Desktop/moveo_ros2/install/serial:/home/anand/Desktop/moveo_ros2/install/moveo_moveit_config:/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos:/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control:/opt/ros/humble /usr/bin/cmake --build /home/anand/Desktop/moveo_ros2/build/moveo_moveit_config -- -j4 -l4
+[72.930s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/anand/Desktop/moveo_ros2/build/moveo_moveit_config': CMAKE_PREFIX_PATH=/home/anand/Desktop/moveo_ros2/install/moveo_arm:/home/anand/Desktop/moveo_ros2/install/diffdrive_arduino:/home/anand/Desktop/moveo_ros2/install/serial:/home/anand/Desktop/moveo_ros2/install/moveo_moveit_config:/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos:/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control:/opt/ros/humble /usr/bin/cmake --install /home/anand/Desktop/moveo_ros2/build/moveo_moveit_config
+[73.102s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveo_moveit_config)
+[73.109s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/anand/Desktop/moveo_ros2/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/home/anand/Desktop/moveo_ros2/install/serial:/home/anand/Desktop/moveo_ros2/install/diffdrive_arduino:/home/anand/Desktop/moveo_ros2/install/moveo_moveit_config:/home/anand/Desktop/moveo_ros2/install/moveo_arm:/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos:/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control:/opt/ros/humble /usr/bin/cmake --build /home/anand/Desktop/moveo_ros2/build/diffdrive_arduino -- -j4 -l4
+[73.111s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/moveo_moveit_config' for CMake module files
+[73.112s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/anand/Desktop/moveo_ros2/build/moveo_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/anand/Desktop/moveo_ros2/install/moveo_arm:/home/anand/Desktop/moveo_ros2/install/diffdrive_arduino:/home/anand/Desktop/moveo_ros2/install/serial:/home/anand/Desktop/moveo_ros2/install/moveo_moveit_config:/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos:/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control:/opt/ros/humble /usr/bin/cmake --install /home/anand/Desktop/moveo_ros2/build/moveo_moveit_config
+[73.113s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/moveo_moveit_config' for CMake config files
+[73.121s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveo_moveit_config', 'cmake_prefix_path')
+[73.125s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anand/Desktop/moveo_ros2/install/moveo_moveit_config/share/moveo_moveit_config/hook/cmake_prefix_path.ps1'
+[73.127s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anand/Desktop/moveo_ros2/install/moveo_moveit_config/share/moveo_moveit_config/hook/cmake_prefix_path.dsv'
+[73.128s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anand/Desktop/moveo_ros2/install/moveo_moveit_config/share/moveo_moveit_config/hook/cmake_prefix_path.sh'
+[73.130s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/moveo_moveit_config/bin'
+[73.130s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/moveo_moveit_config/lib/pkgconfig/moveo_moveit_config.pc'
+[73.131s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/moveo_moveit_config/lib/python3.10/site-packages'
+[73.132s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/moveo_moveit_config/bin'
+[73.135s] INFO:colcon.colcon_core.shell:Creating package script '/home/anand/Desktop/moveo_ros2/install/moveo_moveit_config/share/moveo_moveit_config/package.ps1'
+[73.136s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/anand/Desktop/moveo_ros2/install/moveo_moveit_config/share/moveo_moveit_config/package.dsv'
+[73.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/anand/Desktop/moveo_ros2/install/moveo_moveit_config/share/moveo_moveit_config/package.sh'
+[73.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/anand/Desktop/moveo_ros2/install/moveo_moveit_config/share/moveo_moveit_config/package.bash'
+[73.139s] INFO:colcon.colcon_core.shell:Creating package script '/home/anand/Desktop/moveo_ros2/install/moveo_moveit_config/share/moveo_moveit_config/package.zsh'
+[73.140s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/anand/Desktop/moveo_ros2/install/moveo_moveit_config/share/colcon-core/packages/moveo_moveit_config)
+[73.189s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(moveo_moveit_config)
+[73.196s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/moveo_moveit_config' for CMake module files
+[73.198s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/moveo_moveit_config' for CMake config files
+[73.198s] Level 1:colcon.colcon_core.shell:create_environment_hook('moveo_moveit_config', 'cmake_prefix_path')
+[73.200s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anand/Desktop/moveo_ros2/install/moveo_moveit_config/share/moveo_moveit_config/hook/cmake_prefix_path.ps1'
+[73.201s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anand/Desktop/moveo_ros2/install/moveo_moveit_config/share/moveo_moveit_config/hook/cmake_prefix_path.dsv'
+[73.202s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anand/Desktop/moveo_ros2/install/moveo_moveit_config/share/moveo_moveit_config/hook/cmake_prefix_path.sh'
+[73.203s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/moveo_moveit_config/bin'
+[73.203s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/moveo_moveit_config/lib/pkgconfig/moveo_moveit_config.pc'
+[73.203s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/moveo_moveit_config/lib/python3.10/site-packages'
+[73.203s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/moveo_moveit_config/bin'
+[73.207s] INFO:colcon.colcon_core.shell:Creating package script '/home/anand/Desktop/moveo_ros2/install/moveo_moveit_config/share/moveo_moveit_config/package.ps1'
+[73.209s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/anand/Desktop/moveo_ros2/install/moveo_moveit_config/share/moveo_moveit_config/package.dsv'
+[73.211s] INFO:colcon.colcon_core.shell:Creating package script '/home/anand/Desktop/moveo_ros2/install/moveo_moveit_config/share/moveo_moveit_config/package.sh'
+[73.212s] INFO:colcon.colcon_core.shell:Creating package script '/home/anand/Desktop/moveo_ros2/install/moveo_moveit_config/share/moveo_moveit_config/package.bash'
+[73.213s] INFO:colcon.colcon_core.shell:Creating package script '/home/anand/Desktop/moveo_ros2/install/moveo_moveit_config/share/moveo_moveit_config/package.zsh'
+[73.214s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/anand/Desktop/moveo_ros2/install/moveo_moveit_config/share/colcon-core/packages/moveo_moveit_config)
+[78.542s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/anand/Desktop/moveo_ros2/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/anand/Desktop/moveo_ros2/build/gazebo_ros2_control -- -j4 -l4
+[78.592s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/anand/Desktop/moveo_ros2/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/anand/Desktop/moveo_ros2/build/gazebo_ros2_control
+[79.144s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_ros2_control)
+[79.153s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control' for CMake module files
+[79.154s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/anand/Desktop/moveo_ros2/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/anand/Desktop/moveo_ros2/build/gazebo_ros2_control
+[79.156s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control' for CMake config files
+[79.156s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros2_control', 'cmake_prefix_path')
+[79.164s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/cmake_prefix_path.ps1'
+[79.250s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/cmake_prefix_path.dsv'
+[79.251s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/cmake_prefix_path.sh'
+[79.253s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/lib'
+[79.253s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros2_control', 'ld_library_path_lib')
+[79.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/ld_library_path_lib.ps1'
+[79.257s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/ld_library_path_lib.dsv'
+[79.258s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/ld_library_path_lib.sh'
+[79.258s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/bin'
+[79.259s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/lib/pkgconfig/gazebo_ros2_control.pc'
+[79.260s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/lib/python3.10/site-packages'
+[79.261s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/bin'
+[79.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/package.ps1'
+[79.267s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/package.dsv'
+[79.268s] INFO:colcon.colcon_core.shell:Creating package script '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/package.sh'
+[79.269s] INFO:colcon.colcon_core.shell:Creating package script '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/package.bash'
+[79.270s] INFO:colcon.colcon_core.shell:Creating package script '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/package.zsh'
+[79.271s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/colcon-core/packages/gazebo_ros2_control)
+[79.325s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_ros2_control)
+[79.331s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control' for CMake module files
+[79.332s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control' for CMake config files
+[79.333s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros2_control', 'cmake_prefix_path')
+[79.335s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/cmake_prefix_path.ps1'
+[79.336s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/cmake_prefix_path.dsv'
+[79.337s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/cmake_prefix_path.sh'
+[79.338s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/lib'
+[79.338s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros2_control', 'ld_library_path_lib')
+[79.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/ld_library_path_lib.ps1'
+[79.341s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/ld_library_path_lib.dsv'
+[79.342s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/ld_library_path_lib.sh'
+[79.343s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/bin'
+[79.343s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/lib/pkgconfig/gazebo_ros2_control.pc'
+[79.344s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/lib/python3.10/site-packages'
+[79.345s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/bin'
+[79.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/package.ps1'
+[79.350s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/package.dsv'
+[79.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/package.sh'
+[79.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/package.bash'
+[79.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/gazebo_ros2_control/package.zsh'
+[79.353s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/share/colcon-core/packages/gazebo_ros2_control)
+[79.353s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/anand/Desktop/moveo_ros2/src/gazebo_ros2_control_demos' with build type 'ament_cmake'
+[79.354s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/anand/Desktop/moveo_ros2/src/gazebo_ros2_control_demos'
+[79.356s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[79.356s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[79.542s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/anand/Desktop/moveo_ros2/build/gazebo_ros2_control_demos': CMAKE_PREFIX_PATH=/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control:/home/anand/Desktop/moveo_ros2/install/diffdrive_arduino:/home/anand/Desktop/moveo_ros2/install/serial:/home/anand/Desktop/moveo_ros2/install/moveo_moveit_config:/home/anand/Desktop/moveo_ros2/install/moveo_arm:/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos:/opt/ros/humble LD_LIBRARY_PATH=/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/lib:/home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/lib:/home/anand/Desktop/moveo_ros2/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/anand/Desktop/moveo_ros2/build/gazebo_ros2_control_demos -- -j4 -l4
+[81.964s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/anand/Desktop/moveo_ros2/build/gazebo_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control:/home/anand/Desktop/moveo_ros2/install/diffdrive_arduino:/home/anand/Desktop/moveo_ros2/install/serial:/home/anand/Desktop/moveo_ros2/install/moveo_moveit_config:/home/anand/Desktop/moveo_ros2/install/moveo_arm:/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos:/opt/ros/humble LD_LIBRARY_PATH=/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/lib:/home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/lib:/home/anand/Desktop/moveo_ros2/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/anand/Desktop/moveo_ros2/build/gazebo_ros2_control_demos -- -j4 -l4
+[82.033s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/anand/Desktop/moveo_ros2/build/gazebo_ros2_control_demos': CMAKE_PREFIX_PATH=/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control:/home/anand/Desktop/moveo_ros2/install/diffdrive_arduino:/home/anand/Desktop/moveo_ros2/install/serial:/home/anand/Desktop/moveo_ros2/install/moveo_moveit_config:/home/anand/Desktop/moveo_ros2/install/moveo_arm:/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos:/opt/ros/humble LD_LIBRARY_PATH=/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/lib:/home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/lib:/home/anand/Desktop/moveo_ros2/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/anand/Desktop/moveo_ros2/build/gazebo_ros2_control_demos
+[82.722s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_ros2_control_demos)
+[82.733s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos' for CMake module files
+[82.734s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/anand/Desktop/moveo_ros2/build/gazebo_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control:/home/anand/Desktop/moveo_ros2/install/diffdrive_arduino:/home/anand/Desktop/moveo_ros2/install/serial:/home/anand/Desktop/moveo_ros2/install/moveo_moveit_config:/home/anand/Desktop/moveo_ros2/install/moveo_arm:/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos:/opt/ros/humble LD_LIBRARY_PATH=/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control/lib:/home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/lib:/home/anand/Desktop/moveo_ros2/install/serial/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/anand/Desktop/moveo_ros2/build/gazebo_ros2_control_demos
+[82.736s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos' for CMake config files
+[82.738s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros2_control_demos', 'cmake_prefix_path')
+[82.744s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/hook/cmake_prefix_path.ps1'
+[82.747s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/hook/cmake_prefix_path.dsv'
+[82.749s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/hook/cmake_prefix_path.sh'
+[82.751s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/lib'
+[82.752s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/bin'
+[82.752s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/lib/pkgconfig/gazebo_ros2_control_demos.pc'
+[82.753s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/lib/python3.10/site-packages'
+[82.753s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/bin'
+[82.758s] INFO:colcon.colcon_core.shell:Creating package script '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.ps1'
+[82.760s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.dsv'
+[82.762s] INFO:colcon.colcon_core.shell:Creating package script '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.sh'
+[82.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.bash'
+[82.766s] INFO:colcon.colcon_core.shell:Creating package script '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.zsh'
+[82.767s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/share/colcon-core/packages/gazebo_ros2_control_demos)
+[82.836s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_ros2_control_demos)
+[82.840s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos' for CMake module files
+[82.841s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos' for CMake config files
+[82.842s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros2_control_demos', 'cmake_prefix_path')
+[82.847s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/hook/cmake_prefix_path.ps1'
+[82.847s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/hook/cmake_prefix_path.dsv'
+[82.848s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/hook/cmake_prefix_path.sh'
+[82.849s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/lib'
+[82.849s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/bin'
+[82.849s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/lib/pkgconfig/gazebo_ros2_control_demos.pc'
+[82.849s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/lib/python3.10/site-packages'
+[82.850s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/bin'
+[82.852s] INFO:colcon.colcon_core.shell:Creating package script '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.ps1'
+[82.853s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.dsv'
+[82.854s] INFO:colcon.colcon_core.shell:Creating package script '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.sh'
+[82.855s] INFO:colcon.colcon_core.shell:Creating package script '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.bash'
+[82.855s] INFO:colcon.colcon_core.shell:Creating package script '/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.zsh'
+[82.856s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos/share/colcon-core/packages/gazebo_ros2_control_demos)
+[109.903s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/anand/Desktop/moveo_ros2/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=/home/anand/Desktop/moveo_ros2/install/serial:/home/anand/Desktop/moveo_ros2/install/diffdrive_arduino:/home/anand/Desktop/moveo_ros2/install/moveo_moveit_config:/home/anand/Desktop/moveo_ros2/install/moveo_arm:/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos:/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control:/opt/ros/humble /usr/bin/cmake --build /home/anand/Desktop/moveo_ros2/build/diffdrive_arduino -- -j4 -l4
+[110.011s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/anand/Desktop/moveo_ros2/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/home/anand/Desktop/moveo_ros2/install/serial:/home/anand/Desktop/moveo_ros2/install/diffdrive_arduino:/home/anand/Desktop/moveo_ros2/install/moveo_moveit_config:/home/anand/Desktop/moveo_ros2/install/moveo_arm:/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos:/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control:/opt/ros/humble /usr/bin/cmake --install /home/anand/Desktop/moveo_ros2/build/diffdrive_arduino
+[110.572s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffdrive_arduino)
+[110.629s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/anand/Desktop/moveo_ros2/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=/home/anand/Desktop/moveo_ros2/install/serial:/home/anand/Desktop/moveo_ros2/install/diffdrive_arduino:/home/anand/Desktop/moveo_ros2/install/moveo_moveit_config:/home/anand/Desktop/moveo_ros2/install/moveo_arm:/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control_demos:/home/anand/Desktop/moveo_ros2/install/gazebo_ros2_control:/opt/ros/humble /usr/bin/cmake --install /home/anand/Desktop/moveo_ros2/build/diffdrive_arduino
+[110.696s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/diffdrive_arduino' for CMake module files
+[110.698s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/diffdrive_arduino' for CMake config files
+[110.699s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'cmake_prefix_path')
+[110.705s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.ps1'
+[110.747s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.dsv'
+[110.748s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.sh'
+[110.750s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/lib'
+[110.750s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'ld_library_path_lib')
+[110.755s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.ps1'
+[110.757s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.dsv'
+[110.759s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.sh'
+[110.761s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/bin'
+[110.761s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/lib/pkgconfig/diffdrive_arduino.pc'
+[110.763s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/lib/python3.10/site-packages'
+[110.763s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/bin'
+[110.769s] INFO:colcon.colcon_core.shell:Creating package script '/home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/share/diffdrive_arduino/package.ps1'
+[110.770s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv'
+[110.773s] INFO:colcon.colcon_core.shell:Creating package script '/home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/share/diffdrive_arduino/package.sh'
+[110.776s] INFO:colcon.colcon_core.shell:Creating package script '/home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/share/diffdrive_arduino/package.bash'
+[110.778s] INFO:colcon.colcon_core.shell:Creating package script '/home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/share/diffdrive_arduino/package.zsh'
+[110.779s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/share/colcon-core/packages/diffdrive_arduino)
+[110.833s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffdrive_arduino)
+[110.836s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/diffdrive_arduino' for CMake module files
+[110.837s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/diffdrive_arduino' for CMake config files
+[110.838s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'cmake_prefix_path')
+[110.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.ps1'
+[110.842s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.dsv'
+[110.843s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.sh'
+[110.844s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/lib'
+[110.844s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'ld_library_path_lib')
+[110.846s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.ps1'
+[110.847s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.dsv'
+[110.847s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.sh'
+[110.848s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/bin'
+[110.848s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/lib/pkgconfig/diffdrive_arduino.pc'
+[110.848s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/lib/python3.10/site-packages'
+[110.849s] Level 1:colcon.colcon_core.environment:checking '/home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/bin'
+[110.852s] INFO:colcon.colcon_core.shell:Creating package script '/home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/share/diffdrive_arduino/package.ps1'
+[110.853s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv'
+[110.854s] INFO:colcon.colcon_core.shell:Creating package script '/home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/share/diffdrive_arduino/package.sh'
+[110.854s] INFO:colcon.colcon_core.shell:Creating package script '/home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/share/diffdrive_arduino/package.bash'
+[110.855s] INFO:colcon.colcon_core.shell:Creating package script '/home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/share/diffdrive_arduino/package.zsh'
+[110.856s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/anand/Desktop/moveo_ros2/install/diffdrive_arduino/share/colcon-core/packages/diffdrive_arduino)
+[110.859s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[110.947s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[110.947s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[110.947s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[112.490s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[112.491s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[112.531s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[114.253s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[114.286s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/anand/Desktop/moveo_ros2/install/local_setup.ps1'
+[114.564s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/anand/Desktop/moveo_ros2/install/_local_setup_util_ps1.py'
+[114.758s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/anand/Desktop/moveo_ros2/install/setup.ps1'
+[114.802s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/anand/Desktop/moveo_ros2/install/local_setup.sh'
+[114.920s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/anand/Desktop/moveo_ros2/install/_local_setup_util_sh.py'
+[114.922s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/anand/Desktop/moveo_ros2/install/setup.sh'
+[114.930s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/anand/Desktop/moveo_ros2/install/local_setup.bash'
+[114.983s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/anand/Desktop/moveo_ros2/install/setup.bash'
+[115.001s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/anand/Desktop/moveo_ros2/install/local_setup.zsh'
+[115.035s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/anand/Desktop/moveo_ros2/install/setup.zsh'

@@ -451,7 +451,20 @@
     </transmission> -->
     <ros2_control name="GazeboSystem" type="system">
     	<hardware>
-            <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+            <plugin>diffdrive_arduino/DiffDriveArduino</plugin>
+            <param name="joint_1_name">Joint_1</param>
+			<param name="joint_2_name">Joint_2</param>
+			<param name="joint_3_name">Joint_3</param>
+			<param name="joint_4_name">Joint_4</param>
+			<param name="joint_5_name">Joint_5</param>
+			<param name="joint_1_steps_per_mm">100</param>
+			<param name="joint_2_steps_per_mm">100</param>
+			<param name="joint_3_steps_per_mm">100</param>
+			<param name="joint_4_steps_per_mm">100</param>
+			<param name="joint_5_steps_per_mm">100</param>
+			<param name="device">/dev/ttyS11</param>
+			<param name="baud_rate">9600</param>
+			<param name="timeout">5</param>
 		</hardware>
 		<joint name="Joint_1">
 			<command_interface name="position"></command_interface>
@@ -489,11 +502,11 @@
 			<state_interface name="velocity"/>
 		</joint>
 	</ros2_control>
-	<gazebo>
+	<!-- <gazebo>
 		<plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
 			<robot_param>robot_description</robot_param>
       		<robot_param_node>robot_state_publisher</robot_param_node>
 			<parameters>$(find moveo_moveit_config)/config/ros2_controllers.yaml</parameters>
 		</plugin>
-	</gazebo>
+	</gazebo> -->
 </robot>

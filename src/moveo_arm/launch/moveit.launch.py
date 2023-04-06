@@ -102,6 +102,11 @@ def generate_launch_description():
         executable="spawner",
         arguments=["gripper_controller", "-c", "/controller_manager"],
     )
+    joit_state_publisher_gui = Node(
+        package="joint_state_publisher_gui",
+        executable="joint_state_publisher_gui",
+        name="joint_state_publisher_gui",
+        output="screen",)
     return LaunchDescription([
         static_tf_node,
         robot_state_publisher,
@@ -111,4 +116,5 @@ def generate_launch_description():
         joint_state_broadcaster_spawner,
         arm_controller_spawner,
         gripper_controller_spawner,
+        joit_state_publisher_gui
     ])
